@@ -2,7 +2,18 @@ h1{
     color:red;
 }
 
-#vanta-canvas{
-    width: 100vw;
-    height: 100vh
+
+
+#section-header{
+
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
+#vanta-canvas{
+    
+    width: 100vw;
+    
+    
+    }
