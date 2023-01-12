@@ -1,82 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/target.ico" type="image/x-icon">
-    
-    <!-- FONT-AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!-- BOOTSTRAP - JS - ICONS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Hover.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
-    
-    
-    
-    <!-- CSS STYLES  -->
-    <link rel="stylesheet" href="css/app.css">
-    <title>Leandro Dukiévicz </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/target.ico" type="image/x-icon">
+
+  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- BOOTSTRAP - JS - ICONS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!-- Hover.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    referrerpolicy="no-referrer" />
+  <!-- typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
+  </script>
+  <script src="assets/typed.js"></script>
+  <!-- vanta waves -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js"
+    integrity="sha512-TBsRPqWeusJljmmEij9waZ9K+qO2m6W1pu+5h5BjxvdizD1Izn1wwJyVYNFFFH42tIfedURxTsgtXF2Lah2PXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"
+    integrity="sha512-gqHa0ICeg1WCe5rOOlxMjC1lXvXN3350qWwbePm2HV/pu2Qas+Nswuc+Eb62NZ/JOpMmOhZk4Chaak3twaBRRQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- CSS STYLES  -->
+  <link rel="stylesheet" href="css/app.css">
+  <title>Leandro Dukiévicz </title>
 </head>
-<body>
+
+<body id="vanta-canvas">
+  <section id="top-header">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark ">   
-          <div class="container-fluid nav-head">
-              <a class="navbar-brand hvr-bob" href="#">
-                <img src="img/liontech.png" id="logo" alt="">
-              </a>
-
-              <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">  
-                <i id="icon-togler" class="fa-solid fa-angles-down bg " ></i>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark ">
+        <div class="container-fluid nav-head  ">
+          <a class="navbar-brand hvr-pulse" href="#">
+            <img src="img/liontech.png" id="logo" alt="">
+          </a>
+          <button class="navbar-toggler bg-dark " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i id="icon-togler" class="fa-solid fa-angles-down bg "></i>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active nav-head p-4 hvr-hang" aria-current="page" href="#">Home</a>
+              <a class="nav-link nav-head p-4 hvr-bob" href="#">Sobre</a>
+              <a class="nav-link nav-head p-4 hvr-hang" href="#">Projetos</a>
+              <a class="nav-link nav-head p-4 hvr-bob" href="#">Skills</a>
+              <a class="nav-link nav-head p-4 hvr-hang" href="#">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button>
+                <a class="btn-style hvr-pulse" href="#">Contato</a>
               </button>
-              
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active nav-head p-4 hvr-hang" aria-current="page" href="#">Home</a>
-                  <a class="nav-link nav-head p-4 hvr-bob" href="#">Sobre</a>
-                  <a class="nav-link nav-head p-4 hvr-hang" href="#">Projetos</a>
-                  <a class="nav-link nav-head p-4 hvr-bob" href="#">Skills</a>
-                  <a class="nav-link nav-head p-4 hvr-hang" href="#">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <button>
-                    <a class="btn-style hvr-pulse"  href="#">Contato</a>
-                  </button>          
-                </div>                
-              </div>
-              
-              <div class="theme p-3">
-                <li class="nav-item dropdown navbar navbar-expand-lg">
-                  <a class="nav-link  nav-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-circle-half"></i>
+            </div>
+          </div>
+          <div class="theme p-3 ">
+            <li class="nav-item dropdown navbar navbar-expand-lg">
+              <a class="nav-link  nav-head " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-circle-half "></i>
+              </a>
+              <ul class="dropdown-menu ">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-brightness-high-fill"></i>Light Mode
                   </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                        <a class="dropdown-item" href="#">
-                            <i class="bi bi-brightness-high-fill"></i>Light Mode
-                        </a>                             
-                    </li>  
-                    <li>
-                      <a class="dropdown-item" href="#"><i class="bi bi-moon-stars-fill"></i>Dark Mode
-                      </a>
-                    </li>
-                  </ul>
                 </li>
-              </div>
-          </div>             
-      </nav>         
+                <li>
+                  <a class="dropdown-item" href="#"><i class="bi bi-moon-stars-fill"></i>Dark Mode
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </nav>
     </header>
-    
-    
 
+    <div class="center">
+      <div>
+        <h1>
+          Leandro Dukiévicz <br><br>
+          &nbsp;&nbsp;&nbsp;<strong>Front-End</strong> Developer
+        </h1>
+      </div>
+
+      <div>
+        <img src="img/foto1.svg" alt="">
+      </div>
+
+      <script>
+        VANTA.WAVES({
+          el: "#vanta-canvas",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 500.00,
+          minWidth: 500.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x202020,
+          shininess: 122.00,
+          waveHeight: 22.50,
+          waveSpeed: 1.20,
+          zoom: 0.75
+        })
+      </script>
+  </section>
 
 
 
 
 </body>
+
 </html>

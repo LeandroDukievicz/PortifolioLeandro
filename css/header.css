@@ -1,4 +1,23 @@
 
+.top-header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vanta-canvas{
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-end;
+  }
+  
+
 #icon-togler{
     color:aliceblue;
   }
@@ -18,3 +37,36 @@
   .nav-head:hover{
     color:rgb(0, 255, 247);
   }
+
+  .box-header-1{
+    width: 40%;
+    height: 500px;
+    background-color: aqua;
+  }
+
+  
+  .box-header-2{
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+  }
+
+
+
+
+
+/* 
+  .nav-fixed-top{
+    height: 100px;
+    bottom: 50px;
+    top:5px;
+    margin:0 auto;
+    position: fixed; 
+    background-color:#212529;
+    border-radius: 2rem;
+    z-index: 10;
+    box-shadow: 2px 2px 2px #fff;
+ 
+    VERIFICAR COMO USAR ISSO DA FORMA CORRETA
+} */
+

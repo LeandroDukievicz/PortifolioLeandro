@@ -1,16 +1,66 @@
+@import url(reset.css);
 @import url(header.css);
 @import url(btn.css);
-@import url(reset.css);
+
 
 
 body{
-  background-color:#212529;
+  width: 100%;
+  height: auto;
+  background-color:#202428;
 }
 
-header{
+main{
+  width: 100%;
+  margin-top: 150px;
+}
+
+h1,h2{
+  color:#fff;
+  padding: 20px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+}
+
+.center{
+  margin-top: 1.5rem;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-items: flex-end;
+  align-content: center;  
+
 }
 
+
+
+
+
+/* 
+.bloc-logo {
+  position: relative;
+  width: 130px;
+  height: 49px;
+  float: left;
+}
+
+.bloc-logo canvas,
+.bloc-logo .logo-mask {
+  display: block;
+  width: 130px;
+  height: 49px;
+}
+
+.bloc-logo .logo-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 130px;
+  background-image: url("../img/logo-mask.png");
+  text-indent: -9999px;
+} */
