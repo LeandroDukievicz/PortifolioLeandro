@@ -1,3 +1,16 @@
-#icon-togler{
-  color:aliceblue;
+@import url(header.css);
+@import url(btn.css);
+@import url(reset.css);
+
+
+body{
+  background-color:#212529;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: flex-end;
+}
+

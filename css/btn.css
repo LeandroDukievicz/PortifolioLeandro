@@ -1,0 +1,27 @@
+#contact{
+    background-color: transparent;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(149, 255, 0);
+}
+.btn-style{
+    width: 100%;
+    padding: .6rem;
+    
+ 
+    border-radius: 15px;
+    background-color:transparent;
+    
+}
+.btn-style:hover{
+    transition: .5s;
+    border-color: rgb(0, 0, 255);=
+}
+
+.theme{
+    
+    display: flex;
+    justify-content: end;
+
+}
+
