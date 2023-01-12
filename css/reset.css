@@ -10,3 +10,8 @@ a{
     color:#fff;
    
 }
+
+button{
+    background-color: transparent;
+    border: none;
+}

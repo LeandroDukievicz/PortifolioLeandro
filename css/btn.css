@@ -5,23 +5,25 @@
     color:rgb(149, 255, 0);
 }
 .btn-style{
-    width: 100%;
-    padding: .6rem;
     
- 
     border-radius: 15px;
     background-color:transparent;
     
 }
 .btn-style:hover{
-    transition: .5s;
-    border-color: rgb(0, 0, 255);=
+    transition: .8s;
+    color:#fff;
+    padding: 10px;
+    border-radius:10px ;
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    margin:5px;
 }
 
-.theme{
+/* .theme{
     
     display: flex;
     justify-content: end;
 
-}
+} */
 
+/* refatorar css e html depois e excluir classes que nao estao sendo usadas tanto aqui quando no html  */
