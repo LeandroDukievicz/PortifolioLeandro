@@ -33,10 +33,7 @@
 
 
     
-  <!-- typed.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
-  </script>
-  <script src="assets/typed.js"></script>
+
   <!-- vanta waves -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js"
     integrity="sha512-TBsRPqWeusJljmmEij9waZ9K+qO2m6W1pu+5h5BjxvdizD1Izn1wwJyVYNFFFH42tIfedURxTsgtXF2Lah2PXA=="
@@ -95,54 +92,61 @@
         </div>
       </nav>
     </header>
+<div class="center">
+  <div id="letters">
+    <h1>
+      Leandro Dukiévicz
+    </h1>
+    <br>
+    <h2 class="mov">
+      <strong class="mov">Front End</strong> Developer
+    </h2>
 
-    <div class="center">
-      <div id="letters">
-        <h1>
-          Leandro Dukiévicz 
-          <!-- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<strong>Front-End</strong> Developer -->
-        </h1>
-        <br>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".mov", {
+        strings: [, "Web Developer", "", ""],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+      })
+    </script>
+  </div>
 
-        <h2>
-          <strong>Front End</strong>  Developer
-        </h2>
+  <div id="img-header" class="glass">
+    <img id="img-black-White" src="img/foto.png" alt="">
+  </div>
 
-      </div>
+  <script type="text/javascript" src="js-libs/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".glass,#img-black-white"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      scale: 1.2,
 
-      <div id="img-header" class="glass">
-          <img id="img-black-White" src="img/foto.png" alt="">
-      </div>
+      "max-glare": 0,
+    });
+  </script>
 
-      <script type="text/javascript" src="js-libs/vanilla-tilt.js"></script>
-      <script> VanillaTilt.init(document.querySelectorAll(".glass,#img-black-white"),{
-          max:25,
-          speed:400,
-          glare:true,
-          scale:1.2,
-          
-          "max-glare":0,
-      });
-      </script>
-
-      <script>
-        VANTA.WAVES({
-          el: "#vanta-canvas",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 600.00,
-          minWidth: 600.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0x202020,
-          shininess: 122.00,
-          waveHeight: 22.50,
-          waveSpeed: 1.20,
-          zoom: 0.75,
-        })
-      </script>
-  </section>
+  <script>
+    VANTA.WAVES({
+      el: "#vanta-canvas",
+      mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 100.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x0,
+  shininess: 150.00,
+  waveHeight: 40.00,
+  zoom: 0.65
+    })
+  </script>
+</div>
+</section>
 
 
 
