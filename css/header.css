@@ -26,6 +26,12 @@ header{
     width: 3rem;
     height:auto;
   }
+
+  #letters{
+    
+    width: 50%;
+    text-align:start ;
+  }
   
   .nav-head{
     color:#fff;
@@ -34,26 +40,60 @@ header{
     transition: 0.5s;
     font-size: 1.1rem;
   }
+
+
   .nav-head:hover{
     color:rgb(0, 255, 247);
   }
 
-  .box-header-1{
-    width: 40%;
-    height: 500px;
-    background-color: aqua;
-  }
-
   
-  .box-header-2{
-    width: 60%;
-    height: 500px;
-    background-color: aqua;
+
+
+  .glass {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      transform-style: preserve-3d;
+      transform: translateZ(20px);
   }
 
+  strong{
+    color:cyan;
 
+  }
 
+h1,h2{
+    color:rgb(255, 255, 255);
+    
+    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+}
 
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Monoton',Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+
+h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#img-header{
+    display: flex;
+    justify-content: center;
+    filter:drop-shadow(6px 6px 6px rgb(255, 255, 255));
+    margin:100px;
+    width:30vw;
+    height: 60vh;
+}
+
+#img-black-White{
+    margin-top:-70px;
+    filter:drop-shadow(3px 3px 3px rgb(255, 255, 255));
+}
 
 /* 
   .nav-fixed-top{

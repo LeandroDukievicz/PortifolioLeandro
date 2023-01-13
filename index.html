@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/target.ico" type="image/x-icon">
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Monoton&family=Passions+Conflict&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
 
   <!-- FONT-AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -26,6 +28,11 @@
   <!-- ANIMATE CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     referrerpolicy="no-referrer" />
+    <!-- tilt.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+
+    
   <!-- typed.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
   </script>
@@ -90,16 +97,33 @@
     </header>
 
     <div class="center">
-      <div>
+      <div id="letters">
         <h1>
-          Leandro Dukiévicz <br><br>
-          &nbsp;&nbsp;&nbsp;<strong>Front-End</strong> Developer
+          Leandro Dukiévicz 
+          <!-- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<strong>Front-End</strong> Developer -->
         </h1>
+        <br>
+
+        <h2>
+          <strong>Front End</strong>  Developer
+        </h2>
+
       </div>
 
-      <div>
-        <img src="img/foto1.svg" alt="">
+      <div id="img-header" class="glass">
+          <img id="img-black-White" src="img/foto.png" alt="">
       </div>
+
+      <script type="text/javascript" src="js-libs/vanilla-tilt.js"></script>
+      <script> VanillaTilt.init(document.querySelectorAll(".glass,#img-black-white"),{
+          max:25,
+          speed:400,
+          glare:true,
+          scale:1.2,
+          
+          "max-glare":0,
+      });
+      </script>
 
       <script>
         VANTA.WAVES({
@@ -107,15 +131,15 @@
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 500.00,
-          minWidth: 500.00,
+          minHeight: 600.00,
+          minWidth: 600.00,
           scale: 1.00,
           scaleMobile: 1.00,
           color: 0x202020,
           shininess: 122.00,
           waveHeight: 22.50,
           waveSpeed: 1.20,
-          zoom: 0.75
+          zoom: 0.75,
         })
       </script>
   </section>
