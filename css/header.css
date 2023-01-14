@@ -7,6 +7,8 @@
     align-items: center;
 }
 #vanta-canvas{
+    background-color: black;
+    margin-top: 10px;
     z-index: -1;
 }
 
@@ -59,15 +61,12 @@ header{
       transform: translateZ(20px);
   }
 
-  strong{
-    color:rgb(255, 255, 255);
 
-  }
 
 h1,h2{
     color:rgb(255, 255, 255);
     
-    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+    filter:drop-shadow(4px 4px 4px rgb(117, 117, 117));
 }
 
 h1{
@@ -86,12 +85,14 @@ h2{
     justify-content: center;
     filter:drop-shadow(6px 6px 6px rgb(255, 255, 255));
     margin:100px;
-    width:30vw;
-    height: 60vh;
+    width:20vw;
+    height: 40vh;
 }
 
 #img-black-White{
     margin-top:-70px;
+    width: 500px;
+    height: 500px;
     filter:drop-shadow(3px 3px 3px rgb(255, 255, 255));
 }
 

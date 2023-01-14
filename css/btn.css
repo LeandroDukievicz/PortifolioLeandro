@@ -19,6 +19,10 @@
     margin:5px;
 }
 
+#btn-cv{
+    align-items: center;
+    width: 20%;
+}
 
 
 /* .theme{
