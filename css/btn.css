@@ -1,0 +1,8 @@
+#contact{
+    border: 1px inset #FFF;
+    border-radius: 15px;
+}
+
+#contact:hover{
+    border: 1px inset cyan;
+}

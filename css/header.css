@@ -1,0 +1,43 @@
+header{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: auto;
+  background-color:transparent;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  padding-top: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  position: fixed;
+}
+
+#logo{
+  width: 30% ;
+  height: auto;
+  margin: 20px;
+}
+
+.nav-end{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: end;
+}
+
+.nav-color{
+  color:#FFF;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+.nav-color:hover{
+  letter-spacing: 0.1rem;
+  color:cyan;
+}
+
+.container{
+  width: 10%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
