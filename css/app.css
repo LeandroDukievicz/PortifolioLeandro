@@ -1,46 +1,7 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(btn.css);
+@import url(variables.css);
+@import url(main-style.css);
 
 
-body{
-  width: 100%;
-  height: auto;
-}
-
-main{
-  width: 100%;
-  
-}
-
-
-
-
-
-
-
-
-
-/* 
-.bloc-logo {
-  position: relative;
-  width: 130px;
-  height: 49px;
-  float: left;
-}
-
-.bloc-logo canvas,
-.bloc-logo .logo-mask {
-  display: block;
-  width: 130px;
-  height: 49px;
-}
-
-.bloc-logo .logo-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: 130px;
-  background-image: url("../img/logo-mask.png");
-  text-indent: -9999px;
-} */
