@@ -1,6 +1,13 @@
+
+#arrow-down-toggler{
+    color:cyan;
+    font-size: 2rem;
+}
+
 #contact{
     border: 1px inset #FFF;
     border-radius: 15px;
+    padding:5px;
 }
 
 #contact:hover{

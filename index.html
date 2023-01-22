@@ -61,7 +61,7 @@
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
                     aria-controls="bottom-navbar" aria-expanded="false" aria-label="toggle navigation">
-                    <i class="bi bi-chevron-double-down hvr"></i>
+                    <i id ="arrow-down-toggler" class="bi bi-chevron-double-down "></i>
                 </button>
                 <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
                     <li class="nav-item">
@@ -80,11 +80,24 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link nav-color hvr-pulse">Blog</a>
                     </li>
+                    <div class="dropdown">
+                      <a class="btn btn-secondary dropdown-toggle theme" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-circle-half"></i>
+                      </a>
+                    
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Light Mode</a></li>
+                        <li><a class="dropdown-item" href="#">Dark Mode</a></li>
+                      </ul>
+                    </div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="nav-item">
                         <a id="contact" href="#" class="nav-link nav-color hvr-wobble-to-top-right">Contato</a>
                     </li>
                 </ul>
+
+                
+
             </div>
         </nav>
     </div>

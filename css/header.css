@@ -38,6 +38,11 @@ header{
   width: 10%;
   height: auto;
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-around; 
+}
+
+.theme{
+  background-color: transparent;
+  border: none;
+  color:#FFF;
 }
