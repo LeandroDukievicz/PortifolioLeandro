@@ -11,5 +11,20 @@
 }
 
 #contact:hover{
-    border: 1px inset cyan;
-}
+    background-image: linear-gradient(to bottom, rgb(0, 68, 255), steelblue, rgb(242, 0, 255));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border: 1px inset steelblue;
+    padding: 10px;
+    
+    -webkit-text-fill-color: transparent;
+  }
+
+  #cv{
+    padding:15px;
+    color:#fff;
+    background-image: linear-gradient(to bottom, rgb(0, 68, 255), steelblue, rgb(242, 0, 255));
+    cursor: pointer;
+  }
+  

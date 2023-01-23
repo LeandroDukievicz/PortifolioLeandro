@@ -1,18 +1,16 @@
 header{
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: 100%;
   height: auto;
-  background-color:transparent;
+  background-color:#212121;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-  padding-top: 20px;
   margin-top: 10px;
-  border-radius: 20px;
-  position: fixed;
+  position: fixed; 
 }
 
 #logo{
-  width: 30% ;
+  width: 50% ;
   height: auto;
   margin: 20px;
 }
@@ -22,16 +20,18 @@ header{
   display: flex;
   justify-content: center;
   justify-items: end;
+  margin-left: 50%;
 }
 
 .nav-color{
   color:#FFF;
-  font-size: 1.3rem;
+  font-size: 1.0rem;
   transition: 0.5s;
+  font-family: 'OriginTech';
 }
 .nav-color:hover{
   letter-spacing: 0.1rem;
-  color:cyan;
+  color:steelblue;
 }
 
 .container{

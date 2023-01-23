@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Portifólio pessoal,sistemas para internet, Leandro Dukiévicz,dukievicz, Desenvolvedor Front End, javascript, html, css, web">
-  <link rel="shortcut icon" href="assets/target.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/lionfavicon.ico" type="image/x-icon">
 
 
   <!-- Google Fonts  -->
@@ -53,55 +53,84 @@
 
 <body>
   <header>
-        <a class="hvr-bob" href="#">
-            <img id="logo" src="img/liontech.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
-        </a>
-        <div class="nav-end">
-          <nav class="navbar navbar-expand-lg  p-2">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
-                    aria-controls="bottom-navbar" aria-expanded="false" aria-label="toggle navigation">
-                    <i id ="arrow-down-toggler" class="bi bi-chevron-double-down "></i>
-                </button>
-                <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-color hvr-pulse">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-color hvr-pulse">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-color hvr-pulse">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link nav-color hvr-pulse">Skills</a>
-                    </li>
+    <a class="hvr-bob" href="#">
+      <img id="logo" src="img/liontech.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
+    </a>
+    <div class="nav-end">
+      <nav class="navbar navbar-expand-lg  p-2">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
+            aria-controls="bottom-navbar" aria-expanded="false" aria-label="toggle navigation">
+            <i id="arrow-down-toggler" class="bi bi-chevron-double-down "></i>
+          </button>
+          <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-color hvr-pulse">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-color hvr-pulse">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-color hvr-pulse">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-color hvr-pulse">Skills</a>
+            </li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-color hvr-pulse">Blog</a>
-                    </li>
-                    <div class="dropdown">
-                      <a class="btn btn-secondary dropdown-toggle theme" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-circle-half"></i>
-                      </a>
-                    
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Light Mode</a></li>
-                        <li><a class="dropdown-item" href="#">Dark Mode</a></li>
-                      </ul>
-                    </div>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <li class="nav-item">
-                        <a id="contact" href="#" class="nav-link nav-color hvr-wobble-to-top-right">Contato</a>
-                    </li>
-                </ul>
-
-                
-
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-color hvr-pulse">Blog</a>
+            </li>
+       
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle theme" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-circle-half"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-sun"></i>&nbsp;Light Mode </a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-moon-stars-fill"></i>&nbsp;Dark Mode</a></li>
+              </ul>
             </div>
-        </nav>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a id="contact" href="#" class="nav-link nav-color hvr-wobble-to-top-right">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
+
+<main>
+  <section id="vanta-canvas" class="container-fluid first-section">
+    <div class="name">
+      <h1>Leandro Dukiévicz</h1>
+      <h2 class="gradient">&nbsp;&nbsp;Front End Developer</h2>   
+    </div>
+    <div class="img-profile">
+      <img id="img-profile" src="img/foto.png" alt="">
+    </div>
+    <script>
+      VANTA.WAVES({
+        el: "#vanta-canvas",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x1f1f1f,
+        shininess: 14.00,
+        waveHeight: 40.00,
+        waveSpeed: 0.50,
+        zoom: 1.25
+      })
+      </script>
+  </section>
+</main>
+
+
 
 </body>
 

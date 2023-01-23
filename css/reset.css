@@ -10,14 +10,3 @@ a{
    
 }
 
-.center{
-    margin-top: 1.5rem;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;  
-  
-  }
