@@ -5,12 +5,14 @@
 
 
 body{
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: var(--bg-background);
     display: flex;
     justify-content: center;
+    /* flex-direction: column; */
     padding-bottom: 50px;
+    
   }
 
   /* li{
@@ -20,11 +22,11 @@ body{
   } */
   
   main{
-    width: 100%;
+    width: 100vw;
     padding-top: 120px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     z-index: -3;
   }
 
@@ -44,8 +46,6 @@ body{
     font-size: 4rem;
 }
 
-
-
   #img-profile{
     width: 25vw;
     animation: bg-image 2s infinite alternate;
@@ -61,26 +61,27 @@ body{
      }
  }
   
-
   .container{
     width: 100%;
     height: auto;
   }
 
-
-  .center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
   .gradient {
     background-image: linear-gradient(to bottom, rgb(0, 229, 255), steelblue, rgb(242, 0, 255));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
-  
-    /* Adicionado: */
     -webkit-text-fill-color: transparent;
   }
   
+  .font-size{
+    font-size: 3rem;
+  }
+/* 
+  #aboutMe{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  } */
