@@ -4,12 +4,9 @@
 
 <div align="center">
 
-# Portifólio Pessoal 
+# Portifólio Pessoal   
 
 #### Iniciando o projeto com wireframe de baixa fidelidade, caso queira pode conferir [**Aqui**](https://github.com/LeandroDukievicz/PortifolioLeandro/blob/main/wireframe%20leandro%20.pdf)
-
-#
-
 
 <div align="center">
   <h1>Visite o Portifólio Clicando no Ícone abaixo:</h1>
