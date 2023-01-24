@@ -37,10 +37,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js"
     integrity="sha512-TBsRPqWeusJljmmEij9waZ9K+qO2m6W1pu+5h5BjxvdizD1Izn1wwJyVYNFFFH42tIfedURxTsgtXF2Lah2PXA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"
     integrity="sha512-gqHa0ICeg1WCe5rOOlxMjC1lXvXN3350qWwbePm2HV/pu2Qas+Nswuc+Eb62NZ/JOpMmOhZk4Chaak3twaBRRQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.cells.min.js" integrity="sha512-ipaWmngfmwPrgmF/qAMVRKDlzM6KSmQIXTTFuDGltitPFDndMN02da4C6n2PyODzCpPHD0GSBDJjHSuLH+TKnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.cells.min.js" integrity="sha512-ipaWmngfmwPrgmF/qAMVRKDlzM6KSmQIXTTFuDGltitPFDndMN02da4C6n2PyODzCpPHD0GSBDJjHSuLH+TKnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
   <!-- CSS STYLES  -->
   <link rel="stylesheet" href="css/app.css">
@@ -50,7 +50,7 @@
 
 <body>
   <header data-aos="fade-up">
-    <a class="hvr-bob" href="#">
+    <a class="hvr-bob" href="index.html">
       <img id="logo" src="img/liontech.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
     </a>
     <div class="nav-end">
@@ -109,22 +109,24 @@
     </div>
 
     <script src="three.r134.min.js"></script>
-<script src="vanta.cells.min.js"></script>
-<script>
-    VANTA.CELLS({
-      el: "#vanta-canvas",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      color1: 0x28f2,
-      color2: 0xfc00ff,
-      size: 5.00,
-      speed: 1.70
-    })
-</script>
+    <script src="vanta.waves.min.js"></script>
+    <script>
+        VANTA.WAVES({
+          el: "#vanta-canvas",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x131313,
+          shininess: 115.00,
+          waveHeight: 29.50,
+          waveSpeed: 0.40,
+          zoom: 1.06
+        })
+    </script>
   </section>
 
   <section id="about">
