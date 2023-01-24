@@ -9,9 +9,9 @@
   <link rel="shortcut icon" href="assets/lionfavicon.ico" type="image/x-icon">
 
 
-  <!-- Google Fonts  -->
+  <!-- AOS lib js   -->
 
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- FONT-AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -103,11 +103,11 @@
 
 <main>
   <section id="vanta-canvas" class="container-fluid first-section">
-    <div class="name">
+    <div class="name" data-aos="zoom-in-down">
       <h1>Leandro Dukiévicz</h1>
       <h2 class="gradient">&nbsp;&nbsp;Front End Developer</h2>   
     </div>
-    <div class="img-profile">
+    <div class="img-profile"  data-aos="zoom-in-left">
       <img id="img-profile" src="img/foto.png" alt="">
     </div>
 
@@ -138,8 +138,10 @@
 </div>
 </section> -->
 
-
-
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
