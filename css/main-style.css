@@ -23,6 +23,12 @@ body{
     z-index: -3;
   }
 
+  #vanta-canvas{
+    width: 100vw;
+    border-radius: 15px;
+    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+  }
+
   .first-section{
     width: 100vw;
     height: 500px;
@@ -57,7 +63,7 @@ body{
 
   @keyframes bg-image{
     0%{
-        filter:drop-shadow(1px 1px 1px rgb(207, 207, 207));
+        filter:drop-shadow(1px 1px 1px rgb(63, 63, 63));
      }
      
      100%{
