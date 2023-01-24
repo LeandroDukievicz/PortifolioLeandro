@@ -59,7 +59,14 @@ body{
     height: auto;
   }
 
-  .gradient {
+  .gradient1 {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(194, 194, 194), rgb(67, 67, 67));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gradient2 {
     background-image: linear-gradient(to bottom, rgb(0, 229, 255), steelblue, rgb(242, 0, 255));
     color: black;
     background-clip: text;
