@@ -39,9 +39,20 @@ body{
     font-size: 4rem;
 }
 
+.imgage-profile{
+  width: 23vw;
+  height: auto;
+  border: 1px outset #474747;
+  
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
   #img-profile{
-    width: 25vw;
+    width: 23vw;
+    border-radius: 15px;
     animation: bg-image 2s infinite alternate;
+    filter: drop-shadow(2px 2px 2px rgb(243, 243, 243));
   }
 
   @keyframes bg-image{
@@ -50,7 +61,7 @@ body{
      }
      
      100%{
-         filter:drop-shadow(1px 1px 1px rgb(80, 80, 80));
+         filter:drop-shadow(1px 1px 1px rgb(21, 21, 21));
      }
  }
   
@@ -60,7 +71,7 @@ body{
   }
 
   .gradient1 {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(194, 194, 194), rgb(67, 67, 67));
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(156, 156, 156), rgb(152, 152, 152));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
