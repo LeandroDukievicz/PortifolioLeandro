@@ -1,6 +1,6 @@
 header{
   display: flex;
-  flex-direction: row;
+  
   width: 100%;
   height: auto;
   background-color:#212121;
@@ -10,13 +10,13 @@ header{
 }
 
 #logo{
-  width: 50% ;
+  width: 50px ;
   height: auto;
   margin: 20px;
 }
 
 .nav-end{
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   justify-items: end;
@@ -35,7 +35,7 @@ header{
 }
 
 .container{
-  width: 10%;
+  /* width: 10%; */
   height: auto;
   display: flex;
   justify-content: space-around; 

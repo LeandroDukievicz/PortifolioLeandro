@@ -21,10 +21,33 @@
     -webkit-text-fill-color: transparent;
   }
 
-  #cv{
+  /* #cv{
     padding:15px;
     color:#fff;
     background-image: linear-gradient(to bottom, rgb(0, 68, 255), steelblue, rgb(242, 0, 255));
     cursor: pointer;
   }
-  
+   */
+
+/* .btn-cv{
+  background-color: transparent; 
+} */
+
+/* #btn-cvitae{
+  width: 250px;
+  color:#d5d5d5;
+  background-color: transparent;
+  padding: 10px 25px;
+  border: 1px outset #5b5b5b;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#btn-cvitae:hover{
+  cursor: pointer;
+
+  color:#FFF;
+} */
+

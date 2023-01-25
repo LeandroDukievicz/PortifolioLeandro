@@ -2,12 +2,13 @@
     font-family: 'FutureTech';
     src: url('../assets/FutureTech.ttf') format('truetype');
   }
+  /* Precisa Organizar e refatorar todos os codigos css  */
 
 body{
-    width: 100vw;
-    height: auto;
+    
     background-color: var(--bg-background);
     display: flex;
+    
     justify-content: center;
     padding-bottom: 50px;
     
@@ -15,7 +16,7 @@ body{
 
   
   main{
-    width: 100vw;
+    
     padding-top: 120px;
     display: flex;
     justify-content: center;
@@ -24,8 +25,11 @@ body{
   }
 
   #vanta-canvas{
-    width: 100vw;
-    border-radius: 15px;
+    width: 95vw;
+    
+    border-radius:20px ;
+    display: flex;
+    justify-content: center;
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
   }
 
@@ -35,6 +39,7 @@ body{
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
+    gap: 15px;
     align-items: center;
   }
 
@@ -46,7 +51,8 @@ body{
 }
 
 .imgage-profile{
-  width: 23vw;
+  width: 20vw;
+  
   height: auto;
   border: 1px outset #474747;
   
@@ -55,7 +61,9 @@ body{
 }
 
   #img-profile{
-    width: 23vw;
+    width: 20vw;
+    height: auto;
+    
     border-radius: 15px;
     animation: bg-image 2s infinite alternate;
     filter: drop-shadow(2px 2px 2px rgb(243, 243, 243));
@@ -77,14 +85,14 @@ body{
   }
 
   .gradient1 {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(156, 156, 156), rgb(152, 152, 152));
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(204, 204, 204), rgb(152, 152, 152));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .gradient2 {
-    background-image: linear-gradient(to bottom, rgb(0, 229, 255), steelblue, rgb(242, 0, 255));
+    background-image: linear-gradient(to bottom, rgb(0, 251, 255), rgb(89, 126, 158), rgb(14, 10, 98));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
@@ -93,4 +101,15 @@ body{
   
   .font-size{
     font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #about,#projects,#skills{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    
+    margin-top: 100px;
+    
   }

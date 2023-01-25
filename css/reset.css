@@ -6,7 +6,11 @@
 
 a{
     text-decoration: none;
-    color:#fff;
-   
 }
 
+
+/* 
+html {
+  scroll-behavior: smooth;
+}
+ */
