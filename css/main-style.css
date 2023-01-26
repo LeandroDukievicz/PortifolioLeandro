@@ -100,6 +100,7 @@ body{
   }
   
   .font-size{
+    text-align: center;
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -107,9 +108,15 @@ body{
   #about,#projects,#skills{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
     
     margin-top: 100px;
     
+  }
+
+  #about-content{
+    width: 95vw;
+    height: 500px;
+    border: 1px solid red;
   }
