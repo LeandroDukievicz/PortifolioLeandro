@@ -54,6 +54,7 @@ body{
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
     font-family:'FutureTech', sans-serif;
     font-size: 4rem;
+    text-align: center;
 }
 
 .imgage-profile{
@@ -120,6 +121,9 @@ body{
 
   #about{
     margin-top: 150px;
+    
+    
+    
   }
   #about-content{
     display: flex;
@@ -135,4 +139,32 @@ body{
     height: auto;
     padding: 50px;
     border-right: 1px inset #373737;
+  }
+
+  #projects{
+    width: 95vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+/* 
+  .cards-projects{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+  } */
+
+  .box-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 70px;
+    margin:10px;
+    
+
   }
