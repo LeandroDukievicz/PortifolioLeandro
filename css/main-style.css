@@ -24,6 +24,12 @@ body{
     z-index: -3;
   }
 
+  p{
+    color:#fff;
+    padding: 1rem;
+    margin: 1rem;  
+  }
+
   #vanta-canvas{
     width: 95vw;
     
@@ -78,11 +84,7 @@ body{
          filter:drop-shadow(1px 1px 1px rgb(21, 21, 21));
      }
  }
-  
-  .container{
-    width: 100%;
-    height: auto;
-  }
+
 
   .gradient1 {
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(204, 204, 204), rgb(152, 152, 152));
@@ -107,6 +109,7 @@ body{
 
   #about,#projects,#skills{
     display: flex;
+  
     justify-content: center;
     width: 100vw;
     height: auto;
@@ -115,8 +118,21 @@ body{
     
   }
 
+  #about{
+    margin-top: 150px;
+  }
   #about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 95vw;
-    height: 500px;
-    border: 1px solid red;
+    height: auto;
+    
+  }
+
+  #about-img{
+    width: 30vw;
+    height: auto;
+    padding: 50px;
+    border-right: 1px inset #373737;
   }
