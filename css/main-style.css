@@ -8,7 +8,7 @@ body{
     
     background-color: var(--bg-background);
     display: flex;
-    
+    color:#fff;
     justify-content: center;
     padding-bottom: 50px;
     
@@ -119,10 +119,12 @@ body{
     
   }
 
+  
+
   #about{
     margin-top: 150px;
     
-    
+    /*   */
     
   }
   #about-content{
@@ -167,4 +169,37 @@ body{
     margin:10px;
     
 
+  }
+  
+  #skills{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* .container-border{
+    
+    
+    width: 100vw;
+    height: 75px;
+    background-color: rgb(64, 0, 255);
+    
+    
+  } */
+
+  .box-skills{
+    width: 100vw;
+    height: 65px;
+    background: linear-gradient(to right, #1b1c1c, #2d2d2d);
+    text-align: center;
+    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+  }
+
+  h3{
+    padding: 10px;
+    margin-top: 80px;
+    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
   }
