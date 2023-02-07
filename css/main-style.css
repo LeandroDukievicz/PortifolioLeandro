@@ -196,6 +196,7 @@ body{
     background: linear-gradient(to right, #1b1c1c, #2d2d2d);
     text-align: center;
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+ 
   }
 
   h3{
@@ -203,3 +204,10 @@ body{
     margin-top: 80px;
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
   }
+
+  small{
+    font-size: 1rem;
+    
+    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+  }
+
