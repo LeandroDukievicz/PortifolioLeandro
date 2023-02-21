@@ -5,8 +5,9 @@ header{
   height: auto;
   background-color:#212121;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-  margin-top: 10px;
-  position: fixed; 
+  top:0px;
+  position: fixed;
+
 }
 
 #logo{
