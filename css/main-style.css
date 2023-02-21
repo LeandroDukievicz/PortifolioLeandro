@@ -9,8 +9,10 @@ body{
     background-color: var(--bg-background);
     display: flex;
     color:#fff;
+    align-items: center;
     justify-content: center;
     padding-bottom: 50px;
+    overflow-x: hidden;
     
   }
 
