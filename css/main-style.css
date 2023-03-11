@@ -61,7 +61,8 @@ body{
 
 .imgage-profile{
   width: 20vw;
-  
+  /* filter:grayscale(85%); */
+  filter: saturate(5%);
   height: auto;
   border: 1px outset #474747;
   
@@ -97,7 +98,7 @@ body{
     -webkit-text-fill-color: transparent;
   }
   .gradient2 {
-    background-image: linear-gradient(to bottom, rgb(0, 251, 255), rgb(89, 126, 158), rgb(14, 10, 98));
+    background-image: linear-gradient(to bottom, rgb(204, 204, 204), rgb(104, 104, 104), rgb(154, 154, 154));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
