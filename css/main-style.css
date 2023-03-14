@@ -20,6 +20,7 @@ body{
   main{
     
     padding-top: 120px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -98,7 +99,7 @@ body{
     -webkit-text-fill-color: transparent;
   }
   .gradient2 {
-    background-image: linear-gradient(to bottom, rgb(204, 204, 204), rgb(104, 104, 104), rgb(154, 154, 154));
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(173, 173, 173), rgb(255, 255, 255));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
