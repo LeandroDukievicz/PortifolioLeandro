@@ -1,4 +1,4 @@
-@font-face {
+font-face {
     font-family: 'FutureTech';
     src: url('../assets/FutureTech.ttf') format('truetype');
   }
@@ -13,6 +13,7 @@ body{
     justify-content: center;
     padding-bottom: 50px;
     overflow-x: hidden;
+    
     
   }
 
@@ -112,11 +113,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  #about,#projects,#skills{
+  section #about,#projects,#skills{
     display: flex;
-  
+    align-items: center;
+
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: auto;
     
     margin-top: 100px;
@@ -167,10 +169,12 @@ body{
 
   .box-cards{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    align-content: center;
     flex-direction: row;
     padding-top: 70px;
-    margin:10px;
+    margin-left: 50px;
     
 
   }
