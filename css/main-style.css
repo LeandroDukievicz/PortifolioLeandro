@@ -61,7 +61,7 @@ body{
     text-align: center;
 }
 
-.imgage-profile{
+.image-profile{
   width: 20vw;
   /* filter:grayscale(85%); */
   filter: saturate(5%);

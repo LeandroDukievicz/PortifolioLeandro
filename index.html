@@ -32,7 +32,7 @@
     integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
   <!-- tilt.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
@@ -42,6 +42,8 @@
 
   <title>Leandro Dukiévicz </title>
 </head>
+<!DOCTYPE html>
+
 
 <body>
   <header data-aos="fade-up">
@@ -55,7 +57,7 @@
             aria-controls="bottom-navbar" aria-expanded="false" aria-label="toggle navigation">
             <i id="arrow-down-toggler" class="bi bi-chevron-double-down "></i>
           </button>
-          
+           
           <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
             <li class="nav-item">
               <a  href="index.html" id="home" class="nav-link nav-color hvr-pulse ">Home</a>
@@ -110,10 +112,14 @@
         <h1 class="gradient2">Leandro Dukievicz</h1><br>
         <h2 class="gradient2">&nbsp;&nbsp;Front End Developer</h2>
       </div>
-      <div class="imgage-profile" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-        <img id="img-profile" src="img/foto1.png" alt="">
-      </div>
-
+      
+      <div class="image-profile" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div data-tilt>
+    
+          <img id="img-profile"  src="img/foto1.png" alt="">
+        </div>
+        </div>
+    
    
     </section>
 
@@ -239,25 +245,17 @@
         </div>
       </div>
     </section>
-  </main>
+  </main> -->
 
   
-  <!-- FALTA ACRESCENTAR A LIB TILT NOS CARDS DOS PROJETOS
-<script type="text/javascript" src="js-libs/vanilla-tilt.js"></script>
-        <script> VanillaTilt.init(document.querySelectorAll(".card"),{
-            max:25,
-            speed:400,
-            glare:true,
-            "max-glare":1,
-        });
-        </script> -->
+
 
 
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
+  </script> 
 
 
 
@@ -268,7 +266,7 @@
 
 
 
-</body>
+</body> 
 
 
 
