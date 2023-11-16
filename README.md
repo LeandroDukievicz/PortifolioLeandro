@@ -10,7 +10,7 @@
 
 <div align="center">
   <h1>Visite o Portifólio Clicando no Ícone abaixo:</h1>
-  <a  href="https://leandroduk.vercel.app/" target="_blank"><img  height="100em"src="https://github.com/LeandroDukievicz/PortifolioLeandro/blob/main/img/liontech.png" target="_blank">
+  <a  href="https://leandroduk.vercel.app/" target="_blank"><img  height="130em"src="https://github.com/LeandroDukievicz/PortifolioLeandro/blob/main/img/favicon.png" target="_blank">
 </div>            
 
 #
