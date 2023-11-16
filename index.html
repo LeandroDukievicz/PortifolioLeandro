@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Portifólio pessoal,sistemas para internet, Leandro Dukiévicz,dukievicz, Desenvolvedor Front End, javascript, html, css, web">
-  <link rel="shortcut icon" href="assets/lionfavicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
 
   <!-- AOS lib js   -->
@@ -32,20 +32,10 @@
     integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- typed.js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  
 
   <!-- tilt.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-
-  <!-- vanta waves -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js"
-    integrity="sha512-TBsRPqWeusJljmmEij9waZ9K+qO2m6W1pu+5h5BjxvdizD1Izn1wwJyVYNFFFH42tIfedURxTsgtXF2Lah2PXA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"
-    integrity="sha512-gqHa0ICeg1WCe5rOOlxMjC1lXvXN3350qWwbePm2HV/pu2Qas+Nswuc+Eb62NZ/JOpMmOhZk4Chaak3twaBRRQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.cells.min.js" integrity="sha512-ipaWmngfmwPrgmF/qAMVRKDlzM6KSmQIXTTFuDGltitPFDndMN02da4C6n2PyODzCpPHD0GSBDJjHSuLH+TKnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
   <!-- CSS STYLES  -->
   <link rel="stylesheet" href="css/app.css">
@@ -56,7 +46,7 @@
 <body>
   <header data-aos="fade-up">
     <a class="hvr-bob" href="index.html">
-      <img id="logo" src="img/liontech.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
+      <img id="logo" src="img/favicon.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
     </a>
     <div class="nav-end">
       <nav class="navbar navbar-expand-lg  p-2">
@@ -65,19 +55,23 @@
             aria-controls="bottom-navbar" aria-expanded="false" aria-label="toggle navigation">
             <i id="arrow-down-toggler" class="bi bi-chevron-double-down "></i>
           </button>
+          
           <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
             <li class="nav-item">
-              <a href="#" class="nav-link nav-color hvr-pulse ">Home</a>
+              <a  href="index.html" id="home" class="nav-link nav-color hvr-pulse ">Home</a>
             </li>
             <li class="nav-item">
               <a href="#about" class="nav-link nav-color hvr-pulse">Sobre</a>
             </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link nav-color hvr-pulse">Projetos</a>
-            </li>
+
             <li class="nav-item">
               <a href="#skills" class="nav-link nav-color hvr-pulse">Skills</a>
             </li>
+
+            <li class="nav-item">
+              <a href="#projects" class="nav-link nav-color hvr-pulse">Projetos</a>
+            </li>
+           
 
             <li class="nav-item">
               <a href="#" class="nav-link nav-color hvr-pulse">Blog</a>
@@ -102,13 +96,16 @@
               <a id="contact" href="#" class="nav-link nav-color hvr-wobble-to-top-right gradient1">Contato</a>
             </li>
           </ul>
+          
+          
+
         </div>
       </nav>
     </div>
   </header>
 
   <main>
-    <section id="vanta-canvas" class="container-fluid first-section">
+    <section  class="container-fluid first-section">
       <div class="name" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
         <h1 class="gradient2">Leandro Dukievicz</h1><br>
         <h2 class="gradient2">&nbsp;&nbsp;Front End Developer</h2>
@@ -117,25 +114,7 @@
         <img id="img-profile" src="img/foto1.png" alt="">
       </div>
 
-      <!-- <script src="three.r134.min.js"></script>
-      <script src="vanta.waves.min.js"></script>
-      <script>
-        VANTA.WAVES({
-          el: "#vanta-canvas",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 500.00,
-          minWidth: 800.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0x131313,
-          shininess: 50.00,
-          waveHeight: 29.50,
-          waveSpeed: 0.40,
-          zoom: 1.00
-        })
-      </script> -->
+   
     </section>
 
     <section id="about">
@@ -177,7 +156,21 @@
         </div>
     </section>
 
-    <!-- <section id="projects">
+    
+
+    <section id="skills">
+      
+      <div class="container-fluid ">
+        <h1 class="gradient1 font-size">Skill's</h1>
+        <div class="box-skills">
+          <h3 id="texto" class="gradient1 ">Soft Skills : </h3>          
+        </div>
+      </div>
+      <!-- soft skills a adicionar em outros quadros : empatia,  -->
+      <!-- <small class="gradient1">Resiliência, Colaboração, Comunicação, Organização e planejamento, Inteligência Emocional, Flexibilidade, Proatividade, Ética, Criatividade, Capacidade Analítica para tomada de Decisões, Persuasão, atenção aos detalhes !  </small> -->
+    </section>
+
+    <section id="projects">
       <div class="container-fluid ">
         <h1 class="gradient1 font-size">Projetos</h1>
         <div class="box-cards">
@@ -245,26 +238,7 @@
 
         </div>
       </div>
-    </section> -->
-
-    <section id="skills">
-      
-      <div class="container-fluid ">
-        <h1 class="gradient1 font-size">Skill's</h1>
-        <div class="box-skills">
-          <h3 id="texto" class="gradient1 ">Soft Skills : </h3>          
-        </div>
-      </div>
-      <!-- soft skills a adicionar em outros quadros : empatia,  -->
-      <!-- <small class="gradient1">Resiliência, Colaboração, Comunicação, Organização e planejamento, Inteligência Emocional, Flexibilidade, Proatividade, Ética, Criatividade, Capacidade Analítica para tomada de Decisões, Persuasão, atenção aos detalhes !  </small> -->
-  
-      
-
-
-
-
     </section>
-
   </main>
 
   

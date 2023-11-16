@@ -15,7 +15,7 @@
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
-    border: 1px inset steelblue;
+    border: 3px inset steelblue;
     padding: 10px;
     
     -webkit-text-fill-color: transparent;
