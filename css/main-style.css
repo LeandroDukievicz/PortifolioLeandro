@@ -240,7 +240,56 @@ body{
 } */
 .soft-skilss{
   font-size:1.5rem;
-  
- 
+}
 
+.img-soft-skilss{
+  height: 60px;
+  border: 2px inset #757575;
+  border-radius: 15px;
+  margin-top: 30px;
+  filter:drop-shadow(4px 4px 4px rgb(74, 74, 74));
+  
+}
+
+
+.cards-skills{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.cards-soft-skills{
+  width: 30vw;
+  height: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px inset #757575;
+  background-color: rgb(30, 30, 30);
+  filter: drop-shadow(1px 1px 2px rgb(120, 120, 120));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.p-skill{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.img-skill{
+  filter: saturate(10%);
+  width: 100px;
+  height: 100px;
+  
+
+
+}
+
+.info-skill{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

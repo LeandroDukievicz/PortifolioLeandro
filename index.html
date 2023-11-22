@@ -22,12 +22,13 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- BOOTSTRAP - JS - ICONS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+ 
+  
 
   <!-- Hover.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -45,7 +46,10 @@
   <header data-aos="fade-up">
 
     <a class="hvr-bob" href="index.html">
-      <img id="logo" src="img/favicon.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
+     
+          <img id="logo" src="img/favicon.png" alt="logotipo - imagem de um leão nas cores azul e rosa em degradê">
+       
+      
     </a>
 
     <div class="nav-end">
@@ -119,6 +123,8 @@
         <div data-tilt>
           <img id="img-profile" src="img/foto1.png" alt="">
         </div>
+        
+
       </div>
     </section>
 
@@ -164,52 +170,77 @@
 
 
 
+
+
     <section id="skills">
-
-      <div class="container-fluid ">
+      <div data-aos="zoom-in-down" class="container-fluid ">
         <h1 class="gradient1 font-size">Soft Skill's</h1>
+        <div class="cards-skills">
+          <div class="cards-soft-skills" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <img class="img-skill" src="img/comprometimento.png" alt="">
+            <p class="gradient1 p-skill" >Comprometimento</p>
+            
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem at praesentium.
+              </p>
+            </div>
+          </div>
+     
+          <div class="cards-soft-skills" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <img class="img-skill" src="img/comunicacao.png" alt="">
+            <p class="gradient1 p-skill">Comunicação Eficiente</p>
+            
+            <div class="info-skill">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem at praesentium.
+              </p>
+            </div>
+            
+          </div>
 
-      <div>
-            <!-- <marquee>
-              <img src="img/about.png" alt="">
-              <img src="img/capa.png" alt="">
-              <img src="img/Contato.png" alt="">
-           
-              
-            </marquee>  -->
-
-            <marquee direction="right">
-              <p class="soft-skilss gradient1">Resiliência,&nbsp;&nbsp;&nbsp;&nbsp; Comunicação,&nbsp;&nbsp;&nbsp;&nbsp;
-                Organização e Planejamento</p>
-              <p class="soft-skilss gradient1"></p>
-            </marquee> 
-   
-          
-          </marquee>
-      </div>
-          
-          
-
-
-
-<!-- <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
-  <marquee behavior="alternate">
-    Este texto vai pular
-  </marquee>
-</marquee> -->
+          <div class="cards-soft-skills" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <img class="img-skill" src="img/qualidade.png" alt="">
+            <p class="gradient1 p-skill">Qualidade</p>
+            
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem at praesentium.
+              </p>
+            </div>
+            
+          </div>
         </div>
-      </div>
-      <!-- soft skills a adicionar em outros quadros : empatia,  -->
-      <!-- <small class="gradient1">Resiliência, Colaboração, Comunicação, Organização e planejamento, Inteligência Emocional, Flexibilidade, Proatividade, Ética, Criatividade, Capacidade Analítica para tomada de Decisões, Persuasão, atenção aos detalhes !  </small> -->
-    </section>
+          <div>
+            <marquee>
+              <img class="img-soft-skilss" src="img/soft-skills-01.png" alt="">
+             </marquee> 
 
+             <marquee direction="right">
+                <img class="img-soft-skilss" src="img/soft-skills-02.png" alt="">
+              </marquee> 
+          </div>   
+           
+      </div>
+    </section>
+<!-- <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+                                      <marquee behavior="alternate">
+                                        Este texto vai pular
+                                      </marquee>
+                                    </marquee> -->
 
     <section id="projects">
       <div class="container-fluid ">
         <h1 class="gradient1 font-size">Projetos</h1>
-      </div>
+
+        
+
+
+
     </section>
   </main>
+
+
 
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
