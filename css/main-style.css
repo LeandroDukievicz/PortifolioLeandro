@@ -200,14 +200,25 @@ body{
 
   .box-skills{
     width: 100vw;
-    height: 65px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
     background: linear-gradient(to right, #1b1c1c, #2d2d2d);
     text-align: center;
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
+   
  
   }
 
+  /* #marquee-01{
+    background: linear-gradient(to right, #1b1c1c, #2d2d2d);
+
+  } */
+/* 
   h3{
+   width: 100vw;
+    height: 50px;
+    margin:auto;
     padding: 10px;
     margin-top: 80px;
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
@@ -217,5 +228,19 @@ body{
     font-size: 1rem;
     
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
-  }
+  } */
 
+/* #span-marquee01{
+  width: 100vw;
+  height: 80px;
+  padding: 50px;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 43%;
+} */
+.soft-skilss{
+  font-size:1.5rem;
+  
+ 
+
+}
