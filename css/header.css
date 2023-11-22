@@ -1,6 +1,9 @@
 header{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+
+  justify-content:center;
+  align-items: center;
   width: 100vw;
   height: auto;
   background-color:#212121;
@@ -21,6 +24,8 @@ header{
   transition:1.0s;
   filter: grayscale(0%);
 }
+
+
 
 .nav-end{
   width: 100vw;
@@ -61,4 +66,17 @@ header{
   color:steelblue;
   font-weight: 700;
 
+}
+
+#theme{
+background-color: transparent;
+}
+
+.btn-secondary{
+  color:#FFF
+}
+
+.theme{
+  font-size: 20px;
+  color: #FFF;
 }
