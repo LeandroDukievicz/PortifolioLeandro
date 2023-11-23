@@ -34,10 +34,10 @@ body{
     margin: 1rem;  
   }
 
+
+
   #vanta-canvas{
     width: 95vw;
-    
-    border-radius:20px ;
     display: flex;
     justify-content: center;
     filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
@@ -150,7 +150,7 @@ body{
   }
 
   #projects{
-    width: 95vw;
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -188,15 +188,7 @@ body{
 
   }
 
-  /* .container-border{
-    
-    
-    width: 100vw;
-    height: 75px;
-    background-color: rgb(64, 0, 255);
-    
-    
-  } */
+
 
   .box-skills{
     width: 100vw;
@@ -210,34 +202,7 @@ body{
  
   }
 
-  /* #marquee-01{
-    background: linear-gradient(to right, #1b1c1c, #2d2d2d);
 
-  } */
-/* 
-  h3{
-   width: 100vw;
-    height: 50px;
-    margin:auto;
-    padding: 10px;
-    margin-top: 80px;
-    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
-  }
-
-  small{
-    font-size: 1rem;
-    
-    filter:drop-shadow(4px 4px 4px rgb(0, 0, 0));
-  } */
-
-/* #span-marquee01{
-  width: 100vw;
-  height: 80px;
-  padding: 50px;
-  font-size: 40px;
-  margin-top: 30px;
-  margin-left: 43%;
-} */
 .soft-skilss{
   font-size:1.5rem;
 }
@@ -247,7 +212,7 @@ body{
   border: 2px inset #757575;
   border-radius: 15px;
   margin-top: 30px;
-  filter:drop-shadow(4px 4px 4px rgb(74, 74, 74));
+  
   
 }
 
@@ -259,14 +224,13 @@ body{
 }
 
 .cards-soft-skills{
-  width: 30vw;
+  width: 27vw;
   height: auto;
-  margin-top: 50px;
+  margin-top: 150px;
   padding: 20px;
   border-radius: 10px;
   border: 1px inset #757575;
   background-color: rgb(30, 30, 30);
-  filter: drop-shadow(1px 1px 2px rgb(120, 120, 120));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,14 +277,45 @@ body{
   backdrop-filter: blur(5px);
 }
 
-
 #icons-hard-skills{
   width: 100vw;
   height: auto;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 80px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
 
+}
+
+#container-projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.cards-projects{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.content-projects{
+  width: 27vw;
+  height: auto;
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px inset #757575;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#comunication{
+  width: 27vw;
+  margin-top: 100px;
 }
