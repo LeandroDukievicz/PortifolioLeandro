@@ -8,6 +8,16 @@
     display: flex;
     justify-content: center;
   }
+
+  #contact{
+    padding: 10px;
+    border: 1px inset #8a8a8a;
+    border-radius: 10px;
+  }
+  #contact:hover{
+    transition: 1s;
+    border: 1px inset #009FFF;
+  }
   #toggle-menu{
     font-size: 2rem;
     color:#009FFF;
