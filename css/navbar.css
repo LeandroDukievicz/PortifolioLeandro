@@ -1,0 +1,131 @@
+
+
+/* img {
+    max-width: 100%;
+    display: block;
+  } */
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  #toggle-menu{
+    font-size: 2rem;
+    color:#009FFF;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
+  }
+  
+  .container {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px auto;
+    border: 1px outset #424242;
+  }
+
+  
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  a:hover{
+    transition: 2.5s;
+    cursor: pointer;
+    background-image: linear-gradient(to top, rgb(0, 255, 183), rgb(67, 0, 252));
+    font-weight: 600;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .1rem;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    
+
+  }
+  
+  .material-symbols-outlined{
+    color: #009FFF;
+  }
+
+  
+  .nav {
+    background: -webkit-linear-gradient(to right, #222222, #009FFF);
+    background: linear-gradient(to right, #2a2a2a, #5d5d5d);
+    min-height: 60px;
+    padding: 10px;
+   
+  }
+  
+  .logo {
+    flex-grow: 1;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  label {
+    color: white;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+    position: absolute;
+    right: 10px;
+    display: none;
+  }
+  
+  /*flex box*/
+  .menu ul {
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  @media (max-width : 1015px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    
+      max-width: 300px;
+    }
+  
+    label {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .menu {
+      width: 100%;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      display: none;
+      text-align: center;
+    }
+  
+    .menu ul li {
+      margin: 10px 0;
+      line-height: 20px;
+    }
+  
+    /*mandiga css*/
+    #toggle:checked+.menu ul {
+      display: block;
+ 
+      align-items: end;
+ 
+    }
+  }
+
+  #img-logo{
+    width: 50px;
+    height: auto;
+  }

@@ -1,384 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description"
     content="Portifólio pessoal,sistemas para internet, Leandro Dukiévicz,dukievicz, Desenvolvedor Front End, javascript, html, css,php,laravel, web">
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
-  <!-- AOS lib js   -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js"
-    integrity="sha512-F/e65ZqVgVghvi8+r9UsfxC9Ew1dGjLcj5PfFFVtUNFoHQ05w10cg8eHsPC4RJJ5yCjPLW7+ChUramlE4NKHgA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+ <!-- AOS lib js   -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js"
+   integrity="sha512-F/e65ZqVgVghvi8+r9UsfxC9Ew1dGjLcj5PfFFVtUNFoHQ05w10cg8eHsPC4RJJ5yCjPLW7+ChUramlE4NKHgA=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   
   <!-- DEV-ICON -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
+   <!-- Hover.css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+   integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Google Fonts  -->
 
-  <!-- GOOGLE FONTS / ICONS   -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Roboto&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 
-  <!-- BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-  <!-- Hover.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- CSS STYLES  -->
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  
   <link rel="stylesheet" href="css/app.css">
-
-  <title>Leandro Dukiévicz </title>
-
+  <title>Leandro Dukiévicz</title>
 </head>
 
-<!DOCTYPE html>
-
 <body>
-  <header data-aos="fade-up">
-
-    <!-- &nbsp;&nbsp;
-    <div class="dropdown">
-      <a class=" btn-secondary " href="#" role="button" data-bs-toggle="dropdown"
-        aria-expanded="false">
-        <span id="theme" class="material-symbols-outlined">
-          contrast
-          </span>
-      </a>
-
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">
-          <span class="material-symbols-outlined">
-            light_mode
-            </span>&nbsp;Light  </a></li>
-        <li><a class="dropdown-item" href="index.html">
-          <span class="material-symbols-outlined">
-            dark_mode
-            </span>&nbsp;Dark 
-          </a>
-        </li>
-      </ul>
-    </div> -->
-
-    <a class="hvr-bob" href="index.html">
-      <img id="logo" src="img/favicon.png" alt="declarar">
-    </a>
-
-
-    <div class="nav-end">
-      <nav class="navbar navbar-expand-lg  p-2">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
-            aria-controls="bottom-navbar" aria-expanded="false" aria-label="toggle navigation">
-            <i id="arrow-down-toggler" class="bi bi-chevron-double-down "></i>
-          </button>
-
-          <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
-
-            <li class="nav-item">
-              <a href="index.html" id="home" class="nav-link nav-color hvr-pulse ">Home</a>
-            </li>
-
-
-            <li class="nav-item">
-              <a href="#about" class="nav-link nav-color hvr-pulse">Sobre</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#soft-skills" class="nav-link nav-color hvr-pulse">Skills</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#projects" class="nav-link nav-color hvr-pulse">Projetos</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="blog.html" class="nav-link nav-color hvr-pulse" target="_blank">Blog</a>
-            </li>
-
-            <!-- <li class="nav-item">
-              <a href="#" class="nav-link nav-color hvr-pulse"> CV 
-                <span id="link-download" class="material-symbols-outlined">
-                  download   
-                </span>
-              </a>
-                -->
-
-
-
-            </li>
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-
-            <li class="nav-item">
-              <a id="contact" href="#" class="nav-link nav-color hvr-wobble-to-top-right gradient1">Contato</a>
-            </li>
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-          </ul>
-        </div>
-
-        <a href="index.html">
-          <i class="fa-solid fa-moon theme gradient1 hvr-pulse"></i>
-        </a>
-
-        &nbsp;&nbsp;&nbsp;&nbsp;
-
-        <a href="index2.html">
-          <i class="fa-regular fa-sun theme gradient1 hvr-pulse"></i>
-        </a>
-
+  <header class="nav" data-aos="fade-down">
+    <div class="container">
+      <div class="logo">
+       <a href="">
+        <img  id="img-logo" class="hvr-bob" src="img/favicon.png" alt="">
+       </a>
+      </div>
+      <label for="toggle">
+        <i id="toggle-menu" class="fa-solid fa-bars" ></i>
+      </label>
+      <input type="checkbox" id="toggle">
+      <nav class="menu">
+        <ul>
+          <li id="home" class="hvr-pulse" ><a href="#" class="gradient1">Home </a></li>
+          <li class="hvr-pulse"><a href="#" class="gradient1">Sobre</a></li>
+          <li class="hvr-pulse"><a href="#" class="gradient1">Skills</a></li>
+          <li class="hvr-pulse" ><a href="#" class="gradient1">Projetos</a></li>
+          <li class="hvr-pulse"><a href="#" class="gradient1">Blog</a></li>
+          <li class="hvr-pulse"><a href="#" class="gradient1">Contato</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="container-fluid first-section">
-
-      <div class="name" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
-        <h1 class="gradient2">Leandro Dukievicz</h1><br>
-        <h2 class="gradient2">&nbsp;&nbsp;Front End Developer</h2>
-      </div>
-
-      <div class="image-profile" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-        <div data-tilt>
-          <img id="img-profile" src="img/foto1.png" alt="">
-        </div>
 
 
-      </div>
-    </section>
-
-    <section id="about">
-      <div>
-        <h1 class="gradient1 font-size" data-aos="fade-down">Sobre</h1><br><br>
-        <div class="container-fluid  ">
-          <div id="about-content">
-            <img id="about-img" src="img/undraw_dev_productivity_re_fylf.svg" data-aos="fade-up-right" alt="">
-            <div id="storytelling">
-              <p data-aos="fade-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium similique neque quae, eius illum
-                quisquam vel deleniti tempora eligendi aut ipsam nemo numquam distinctio labore aperiam ut tempore
-                magnam
-                repudiandae?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquid tenetur fuga harum.
-                Consequuntur sunt dicta inventore non beatae autem? Facilis vitae ratione, ipsum voluptatum quidem ut
-                impedit obcaecati autem?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in vitae nemo sunt asperiores rerum illo
-                sint labore amet? Corporis voluptatibus vel quaerat vitae rem inventore sunt quos, assumenda suscipit.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repudiandae perspiciatis incidunt totam
-                fugit blanditiis saepe veritatis! Vel, ipsam impedit! Tempore quaerat quod ab nesciunt quos alias rem,
-                exercitationem laudantium?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolorum corporis, qui, nihil quaerat
-                officia ratione quam praesentium assumenda nostrum odio maxime. Voluptate, distinctio maiores et sit
-                inventore odit recusandae?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum placeat porro tempore provident
-                neque,
-                corporis blanditiis? Esse pariatur fugiat, labore ducimus, doloremque dolorem voluptatibus, numquam quod
-                accusamus molestias tempora?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laudantium quaerat quos, sit dicta
-                pariatur ab culpa laboriosam tenetur totam. Explicabo ratione fugiat ipsum at debitis dicta optio minima
-                a.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, debitis. Officia ipsam at quis
-                accusamus earum autem quaerat assumenda sunt quibusdam? Commodi dolorem architecto distinctio, tenetur
-                ducimus itaque repellat sed.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="soft-skills">
-      <div data-aos="zoom-in-down" class="container-fluid ">
-        <h1 class="gradient1 font-size">Soft Skill's</h1>
-        <div class="cards-skills">
-          <div class="cards-soft-skills" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-            <img class="img-skill" src="img/comprometimento.png" alt="">
-            <p class="gradient1 p-skill">Comprometimento</p>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-          </div>
-
-          <div id="comunication" class="cards-soft-skills" data-aos="flip-right" data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
-            <img class="img-skill" src="img/comunicacao.png" alt="">
-            <p class="gradient1 p-skill">Comunicação Eficiente</p>
-
-            <div class="info-skill">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-
-          </div>
-
-          <div class="cards-soft-skills" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-            <img class="img-skill" src="img/qualidade.png" alt="">
-            <p class="gradient1 p-skill">Qualidade</p>
-
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-
-          </div>
-        </div>
-        <div class="carroussel-skilss">
-          <marquee direction="left">
-            <img class="img-soft-skilss" src="img/soft-skills-01.png" alt="">
-          </marquee>
-
-          <marquee direction="right">
-            <img class="img-soft-skilss" src="img/soft-skills-02.png" alt="">
-          </marquee>
-        </div>
-      </div>
-    </section>
-
-    <section id="hard-skills">
-      <div data-aos="zoom-in-down" class="container-fluid ">
-        <h1 class="gradient1 font-size">Hard Skill's</h1>
-        <div id="icons-hard-skills">
-          <i data-aos="zoom-out-up" id="php" class="devicon-php-plain colored icons-hard "></i>
-          <i data-aos="zoom-out-down" class="devicon-wordpress-plain-wordmark colored icons-hard"></i>
-          <i data-aos="zoom-out-up" class="devicon-javascript-plain colored icons-hard"></i>
-          <i data-aos="zoom-out-down" class="devicon-html5-plain-wordmark colored icons-hard"></i>
-          <i data-aos="zoom-out-up" class="devicon-css3-plain-wordmark colored icons-hard"></i>
-          <i data-aos="zoom-out-down" class="devicon-sass-original colored icons-hard"></i>
-          <i data-aos="zoom-out-up" class="devicon-git-plain colored icons-hard"></i>
-          <i data-aos="zoom-out-down" class="devicon-github-original colored icons-hard"></i>
-          <i data-aos="zoom-out-up" class="devicon-canva-original colored icons-hard"></i>
-          <i data-aos="zoom-out-down" class="devicon-figma-plain colored icons-hard"></i>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div data-aos="zoom-in-down" class="container-fluid ">
-        <h1 class="gradient1 font-size">Projetos</h1>
-        <div class="cards-projects">
-
-          <div class="content-projects" data-aos="fade-up"
-          data-aos-duration="3000">
-            <p class="gradient1 p-skill"></p>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-          </div>
-
-          <div class="content-projects" data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500" >
-            <p class="gradient1 p-skill"></p>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-          </div>
-
-          <div class="cards-projects" data-aos="fade-up"
-          data-aos-duration="3000">
-            <div class="content-projects" data-aos="zoom-in-down">
-              <p class="gradient1 p-skill"></p>
-              <div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi
-                  fugit perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam
-                  voluptatem at praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards-projects">
-          <div class="content-projects" data-aos="fade-up"
-          data-aos-duration="3000">
-            <p class="gradient1 p-skill"></p>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-          </div>
-
-          <div class="content-projects" data-aos="fade-up"
-          data-aos-duration="3000">
-            <p class="gradient1 p-skill"></p>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi fugit
-                perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam voluptatem
-                at praesentium.
-              </p>
-            </div>
-          </div>
-
-          <div class="cards-projects">
-            <div class="content-projects" data-aos="fade-up"
-            data-aos-duration="3000">
-              <p class="gradient1 p-skill"></p>
-              <div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus illo, placeat quam commodi
-                  fugit perferendis sapiente ea quia facere ipsa eligendi, veritatis accusamus? Placeat alias aliquam
-                  voluptatem at praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-  </main>
 
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-  </script>
 
 
+
+
+
+
+
+  
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
 
 </body>
+
+
+
 
 </html>

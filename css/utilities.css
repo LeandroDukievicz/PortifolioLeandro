@@ -1,0 +1,8 @@
+
+.gradient1 {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(204, 204, 204), rgb(152, 152, 152));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
