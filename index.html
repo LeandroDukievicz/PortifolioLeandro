@@ -8,6 +8,9 @@
   <meta name="description"
     content="Portifólio pessoal,sistemas para internet, Leandro Dukiévicz,dukievicz, Desenvolvedor Front End, javascript, html, css,php,laravel, web">
 
+
+    <link rel="stylesheet" href="/path/to/obnoxious.css">
+
 <!-- FONT AWESOME -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -42,7 +45,7 @@
 </head>
 
 <body>
-  <header class="nav" data-aos="fade-down">
+  <header id="section-header" class="nav" data-aos="fade-down">
     <div class="container">
       <div class="logo">
        <a href="">
@@ -66,8 +69,54 @@
     </div>
   </header>
 
+  
+
+  <section id="apresentation" >
+    <div id="maquina-escrever" class="gradient1 ""></div>
+    <script>
+      const texto = "Olá, Seja bem vindo(a) ao Portifólio de : ";
+      const tempoDigitacao = 150; // Tempo em milissegundos
+      const tempoPausa = 1000; // Tempo de pausa em milissegundos entre loops
+    
+      function maquinaEscrever(texto, elemento, tempo) {
+        let i = 0;
+        function escrever() {
+          elemento.innerHTML += texto.charAt(i);
+          i++;
+          if (i <= texto.length) {
+            setTimeout(escrever, tempo);
+          } else {
+            setTimeout(resetar, tempoPausa);
+          }
+        }
+    
+        function resetar() {
+          i = 0;
+          elemento.innerHTML = '';
+          setTimeout(escrever, tempoPausa);
+        }
+    
+        escrever();
+      }
+    
+      window.onload = function() {
+        const divTexto = document.getElementById('maquina-escrever');
+        maquinaEscrever(texto, divTexto, tempoDigitacao);
+      };
+    </script>
+  </section>
 
 
+  <div> 
+    <div class="cards-apresentation">
+      <h1 class="gradient1">Leandro Dukiévicz</h1>
+      <h3 class="gradient2 animated intensifies ">Front End - Developer</h3>
+    </div>
+   
+    <div class="cards-apresentation">
+      <img src="img/apresentation.png" alt="">
+    </div>
+  </div>
 
 
 
@@ -86,6 +135,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
 </script>
+
+
 
 </body>
 

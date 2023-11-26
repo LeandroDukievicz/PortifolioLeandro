@@ -1,0 +1,21 @@
+#apresentation{
+    
+    
+    margin-top: 100px;
+    /* background: linear-gradient(to right, #2a2a2a, #5d5d5d);
+    background: linear-gradient(to right, #2a2a2a, #5d5d5d);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
+    /* border: 1px outset #424242;
+    border-radius: 15px; */
+    z-index: -1;
+    display: flex;
+    justify-content: start;
+    
+}
+
+#texto {
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+  }

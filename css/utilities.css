@@ -5,4 +5,14 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
+  }
+
+  .gradient2 {
+    background-image: linear-gradient(to top, rgb(0, 255, 183), rgb(67, 0, 252));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
   }
