@@ -14,10 +14,11 @@
 }
 
 h1{
-    font-size: 3rem;
+    font:600;
+    font-size: 50px;
 }
 h2{
-    font-size: 1.5rem;
+    font-size: 35px;
 }
 
 .container-section{
@@ -62,8 +63,8 @@ h2{
     
 }
 
-#scroll{
-    width: 2.5rem;
+.scroll{
+    width: 3rem;
 }
 
 /* #texto {

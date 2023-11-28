@@ -1,4 +1,4 @@
-const texto = "Seja bem vindo(a) ao Portifólio de : ";
+const texto = "Seja bem vindo(a) ao Portifólio de : "
       const tempoDigitacao = 150; // Tempo em milissegundos
       const tempoPausa = 1000; // Tempo de pausa em milissegundos entre loops
     
