@@ -1,29 +1,19 @@
 #apresentation{
-    
-    
     margin-top: 100px;
-    /* background: linear-gradient(to right, #2a2a2a, #5d5d5d);
-    background: linear-gradient(to right, #2a2a2a, #5d5d5d);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
-    /* border: 1px outset #424242;
-    border-radius: 15px; */
-    z-index: -3;
     display: flex;
     justify-content: start;
-    
 }
 
 h1{
-    font:600;
     font-size: 50px;
 }
 h2{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .container-section{
-    width: 85vw;
-    height: 80vh;
+    width: 90vw;
+    height: 100vh;
 
     padding:80px;
     border: 1px outset #424242;
@@ -31,7 +21,6 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content:center ;
-    
     background: linear-gradient(to right, #1a1a1a, #393939);
     border-radius: 15px;
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
