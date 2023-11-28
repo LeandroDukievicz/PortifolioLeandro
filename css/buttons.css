@@ -1,9 +1,10 @@
-#contact{
+.all-btn{
     padding: 10px;
     border: 1px inset #8a8a8a;
     border-radius: 10px;
   }
-  #contact:hover{
+  .all-btn:hover{
     transition: 1s;
     border: 1px inset #009FFF;
   }
+

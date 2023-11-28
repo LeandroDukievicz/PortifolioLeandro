@@ -7,15 +7,69 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
     /* border: 1px outset #424242;
     border-radius: 15px; */
-    z-index: -1;
+    z-index: -3;
     display: flex;
     justify-content: start;
     
 }
 
-#texto {
-    font-family: 'Courier New', monospace;
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+.container-section{
+    width: 85vw;
+    height: 80vh;
+
+    padding:80px;
+    border: 1px outset #424242;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+    background: linear-gradient(to right, #1a1a1a, #393939);
+    border-radius: 15px;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+.cards-apresentation{
+    width: 100%;
+    height: auto;
+    padding:20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px outset #424242;
+    border-radius: 15px;
+}
+
+.center-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#img-apresentation{
+    width:25vw ;
+    height: auto;
+    filter: saturate(25%);
+    
+}
+
+#scroll{
+    width: 2.5rem;
+}
+
+/* #texto {
+
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid #000;
-  }
+  
+} */
