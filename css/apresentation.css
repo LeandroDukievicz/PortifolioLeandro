@@ -17,12 +17,12 @@ h2{
 .container-section{
     width: 90vw;
     height: 100vh;
-
-    padding:80px;
+    padding:30px;
     border: 1px outset #424242;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content:center ;
     background: linear-gradient(to right, #1a1a1a, #393939);
     border-radius: 15px;
@@ -38,16 +38,8 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 1px outset #424242;
-    border-radius: 15px;
 }
 
-.center-column{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 #img-apresentation{
     width:25vw ;
     height: auto;

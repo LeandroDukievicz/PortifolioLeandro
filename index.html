@@ -52,12 +52,12 @@
       <input type="checkbox" id="toggle">
       <nav class="menu">
         <ul>
-          <li id="home" class="hvr-pulse" ><a href="#" class="gradient1">Home </a></li>
-          <li class="hvr-pulse"><a href="#" class="gradient1">Sobre</a></li>
-          <li class="hvr-pulse"><a href="#" class="gradient1">Skills</a></li>
-          <li class="hvr-pulse" ><a href="#" class="gradient1">Projetos</a></li>
+          <li id="home" class="hvr-pulse" ><a href="index.html" class="gradient1">Home </a></li>
+          <li class="hvr-pulse"><a href="#about" class="gradient1">Sobre</a></li>
+          <li class="hvr-pulse"><a href="#skills" class="gradient1">Skills</a></li>
+          <li class="hvr-pulse" ><a href="#projects" class="gradient1">Projetos</a></li>
           <li class="hvr-pulse"><a href="blog.html" target="_blank" class="gradient1">Blog</a></li>
-          <li class="hvr-pulse"><a href="#" class="gradient1 all-btn">Contato</a></li>
+          <li class="hvr-pulse"><a href="#contact-me" class="gradient1 all-btn">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -100,37 +100,32 @@
 
 <!--SECAO SOBRE -->
 
-  <section id="about" class="container-section"> 
-    <div class="cards-apresentation">
-      <div class="center-column">
+  <section id="about"> 
+    <h1 class="gradient1 center-column">Sobre :</h1>
+      <div class="center-row">  
         <div >
-          <img  id="img-apresentation" src="img/apresentation.png" alt="">
+            <img  id="img-about" src="assets/section-about.svg" alt="">
         </div>
-      </div>
-
-      <div class="center-column">
-        <div id="maquina-escrever" class="gradient1 "">
-        </div>
-        <br><br><br>
-    
-       <h1 id="h1" class="gradient1 ">Leandro Dukiévicz</h1>
-    
-        <h2 class="gradient2">Front End - Developer</h2>
-        <br><br><br><br>
-        <button  class="gradient1 all-btn hvr-pulse">
-            <a href=""> 
-                  Download CV
-                  <i class="fa-solid fa-download" style="color: #878787;"></i>
-            </a>
-        </button>
-      </div>
+  
+        <aside class="scrollable-div">
+            <p id="p-scroll">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto fugiat temporibus veniam dolore animi eos praesentium voluptatum sit debitis officiis reiciendis repellat, voluptatibus voluptate consectetur doloremque odit, dolor odio excepturi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni consequuntur quam nobis quidem, amet vero sint inventore eaque provident rerum iusto iste dolor possimus, cum autem saepe blanditiis veniam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima similique aspernatur molestias fugit rerum, sunt ut, eligendi ipsa accusantium dolorem, blanditiis qui! Cupiditate officia tenetur architecto quos. Quisquam, dolor modi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quo sed quas quod itaque dicta officia saepe. Accusantium cumque consequatur sed soluta nemo minus ipsum culpa sapiente eaque maiores. Dolorem.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquid perspiciatis necessitatibus saepe, numquam debitis nihil laboriosam consectetur repellat eligendi rem nemo vel asperiores in fugit illo ad optio dignissimos?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quo sed quas quod itaque dicta officia saepe. Accusantium cumque consequatur sed soluta nemo minus ipsum culpa sapiente eaque maiores. Dolorem.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquid perspiciatis necessitatibus saepe, numquam debitis nihil laboriosam consectetur repellat eligendi rem nemo vel asperiores in fugit illo ad optio dignissimos?
+            </p>
+        </aside>
     </div>
+    <br><br>
 
-  <div class="center-column gradient1 hvr-pulse">
-    <a href="#skills">
-      <img class="scroll" src="assets/Scroll-Icon.gif" alt="">
-    </a>
-  </div>
+      <div class="center-column gradient1 hvr-pulse">
+        <a href="#skills">
+          <img class="scroll" src="assets/Scroll-Icon.gif" alt="">
+        </a>
+      </div>
 </section>
   
 
@@ -252,7 +247,7 @@
 </script>
 
 <script type="text/javascript" src="js/vanilla-tilt.js"></script>
-<script> VanillaTilt.init(document.querySelectorAll("#img-apresentation  	"),{
+<script> VanillaTilt.init(document.querySelectorAll("#img-apresentation,#img-about"),{
   
     max:10,
     speed:100,
