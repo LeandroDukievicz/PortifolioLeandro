@@ -45,7 +45,8 @@
   /* Estilo para o "polegar" (a parte que pode ser arrastada) */
   ::-webkit-scrollbar-thumb {
     background-color: #2e2e2e; /* Cor do polegar da barra de rolagem */
-    border-radius: 10px; /* Borda arredondada do polegar */
+    border-bottom-right-radius : 10px; 
+    border-top-left-radius: 10px;
     padding: 10px;
     margin: 5px;
     border: 10px inset #ffffff;
