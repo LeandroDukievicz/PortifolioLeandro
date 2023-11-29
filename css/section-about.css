@@ -21,11 +21,9 @@
     width: 700px; 
     height: 300px; 
     overflow-y: scroll;
-    border: 1px outset #4e4e4e;
     padding: 20px; 
     color:rgb(201, 201, 201) ; 
     font-family: 'Montserrat', sans-serif;
-    border-radius: 15px;
     line-height:2;
     
   }
