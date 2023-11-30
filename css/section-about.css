@@ -1,31 +1,16 @@
-#about{
-    width: 90vw;
-    height: 100vh;
-    padding:10px;
-    margin:10px;
-    border: 1px outset #424242;
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center ;
-    background: linear-gradient(to right, #1a1a1a, #393939);
-    border-radius: 15px;
-    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
-}
+
 
 #img-about{
     width:25vw ;
     height: auto;
-    
 }
 .scrollable-div {
-    width: 700px; 
+    width: 730px; 
     height: 300px; 
     overflow-y: scroll;
     padding: 20px; 
     color:rgb(201, 201, 201) ; 
     font-family: 'Montserrat', sans-serif;
     line-height:2;
-    
   }
 

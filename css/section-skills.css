@@ -1,0 +1,21 @@
+
+
+.card-skill{
+    width: 20vw;
+    height: auto;
+    border: 1px inset #424242;
+    border-radius:15px ;
+    padding:20px;
+    margin:50px;
+}
+#top-skill{
+    margin-top: -15px;
+}
+
+.img-skill{
+    padding:10px;
+    width: 100px;
+    filter: saturate(25%);
+
+}
+

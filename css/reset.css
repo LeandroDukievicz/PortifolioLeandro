@@ -4,36 +4,36 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3c3c3c;    
 }
 
 li {
   list-style: none;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #3c3c3c;
-    
-   
-  }
-
-html {
-    scroll-behavior: smooth;
-  }
-  
-
 a{
     text-decoration: none;
 }
 
-
-/* TESTE  */
-
-
-canvas {
-  display: block;
+p{
+  color:rgb(176, 176, 176);
+  padding: 10px;
+  filter: drop-shadow(2px 2px 2px #000);
 }
+
+
+
+

@@ -1,3 +1,17 @@
+#about,#skills{
+  width: 90vw;
+  height: auto;
+  padding:10px;
+  margin:10px;
+  border: 1px outset #424242;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  background: linear-gradient(to right, #1a1a1a, #393939);
+  border-radius: 15px;
+  filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
 
 .gradient1 {
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(204, 204, 204), rgb(152, 152, 152));
@@ -16,8 +30,16 @@
     -webkit-text-fill-color: transparent;
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
   }
-
   
+  .gradient3 {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(190, 190, 190), rgb(255, 255, 255));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
+  }
+
 .center-column{
   display: flex;
   justify-content: center;
@@ -33,28 +55,25 @@
   justify-content: space-around;
 }
 
+
+
   ::-webkit-scrollbar {
-    width: 15px; /* Largura da barra de rolagem */
+    width: 15px; 
   }
   
-  /* Estilo para o "pulso" (o fundo da barra de rolagem) */
   ::-webkit-scrollbar-track {
     background-image: linear-gradient(to top, rgb(255, 255, 255rgb(114, 114, 114) 0));
   }
   
-  /* Estilo para o "polegar" (a parte que pode ser arrastada) */
   ::-webkit-scrollbar-thumb {
-    background-color: #2e2e2e; /* Cor do polegar da barra de rolagem */
+    background-color: #2e2e2e; 
     border-bottom-right-radius : 10px; 
     border-top-left-radius: 10px;
     padding: 10px;
     margin: 5px;
     border: 10px inset #ffffff;
-    
-    
   }
   
-  /* Estilo quando o polegar está sendo arrastado */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Cor do polegar ao passar o mouse sobre ele */
+    background-color: #444444; 
   }
