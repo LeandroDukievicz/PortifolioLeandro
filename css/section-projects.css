@@ -1,0 +1,60 @@
+#projects{
+    margin-top: 150px;
+    padding:10px;
+    margin: 20px;
+}
+
+.card-project{
+    width: 20vw;
+    height: auto;
+    border: 1px inset #424242;
+    border-radius:15px ;
+    
+    margin:50px;
+    margin-top: 50px;
+}
+
+.img-projects{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    filter: saturate(5%);
+    border-radius: 15px;
+}
+
+.stack{
+    font-size: 40px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+.accordion {
+	max-width: 30vw;
+	/* width: calc(100% - 20px); */
+    padding:10px;
+    margin: 10px;
+    border: 1px inset #424242;
+    border-radius: 15px;
+}
+details {
+	margin-bottom: 10px;
+	filter: drop-shadow(2px 2px 0px #0A0A0A);   
+}
+/* details:hover {
+	filter: drop-shadow(2px 2px 5px #404040);
+} */
+details > summary {
+	color:aliceblue;
+    margin: 10px;
+	padding: 5px 10px;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+details > p {
+	padding: 5px 10px 10px 10px;
+	color:aliceblue;
+	font-size: 0.8rem;
+    line-height:2;
+}

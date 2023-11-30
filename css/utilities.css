@@ -1,4 +1,4 @@
-#apresentation,#about,#skills{
+.sections{
   width: 90vw;
   height: auto;
   padding:10px;
@@ -54,8 +54,6 @@
   align-items: center;
   justify-content: space-around;
 }
-
-
 
   ::-webkit-scrollbar {
     width: 15px; 

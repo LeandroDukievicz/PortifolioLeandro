@@ -1,5 +1,4 @@
 
-
 .card-skill{
     width: 20vw;
     height: auto;
@@ -34,7 +33,6 @@ section#hard-skills {
     flex-direction: row;
   
   }
-
 
   .icons-hard{
     display: flex;
