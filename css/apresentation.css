@@ -1,8 +1,4 @@
-#apresentation{
-    margin-top: 100px;
-    display: flex;
-    justify-content: start;
-}
+
 
 h1{
     font-size: 3em;
@@ -14,7 +10,7 @@ h2{
 }
 
 
-.container-section{
+/* .container-section{
     width: 90vw;
     height: 100vh;
     padding:30px;
@@ -28,7 +24,7 @@ h2{
     background: linear-gradient(to right, #1a1a1a, #393939);
     border-radius: 15px;
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
-}
+} */
 
 .cards-apresentation{
     width: 100%;

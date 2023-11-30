@@ -1,11 +1,10 @@
-#about,#skills{
+#apresentation,#about,#skills{
   width: 90vw;
   height: auto;
   padding:10px;
   margin:10px;
   border: 1px outset #424242;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content:center ;
