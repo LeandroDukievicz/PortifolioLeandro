@@ -23,7 +23,7 @@
 }
 
 .img-new-projects{
-    width: 30px;
+    width: 80px;
     height: auto;
     margin: 10px;
     filter: saturate(5%);
@@ -65,4 +65,8 @@ details > p {
 	color:aliceblue;
 	font-size: 0.8rem;
     line-height:2;
+}
+
+small{
+    color:aliceblue;
 }

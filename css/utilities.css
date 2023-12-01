@@ -55,6 +55,13 @@
   justify-content: space-around;
 }
 
+.space-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
   ::-webkit-scrollbar {
     width: 15px; 
   }
