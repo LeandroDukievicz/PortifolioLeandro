@@ -1,8 +1,29 @@
+#whats{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  
+}
+
+#img-zap{
+    width: 10vw;
+    filter: saturate(5%);
+    margin:20px;
+}
+#img-zap:hover{
+    width: 11vw;
+    transition: 1s;
+    filter: saturate(75%);
+}
+
+
+
 footer{
     width: 90vw;
     height: auto;
     margin-top: 80px;
-    padding: 50px;
+    
 }
 
 #container-footer{
