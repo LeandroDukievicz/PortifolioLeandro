@@ -1,0 +1,27 @@
+
+
+.container-contact{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-contact{
+    width: 40vw;
+    height: auto;
+    margin: 10px;
+    filter: saturate(5%);
+    padding: 20px;
+   
+}
+
+
+form{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: end;
+}
