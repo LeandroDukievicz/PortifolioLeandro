@@ -60,24 +60,19 @@
   align-items: center;
   justify-content: space-between;
 }
+::-webkit-scrollbar {
+  width: 15px; /* Largura da barra de rolagem para navegadores WebKit (Chrome, Safari, etc.) */
+}
 
-  ::-webkit-scrollbar {
-    width: 15px; 
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-image: linear-gradient(to top, rgb(255, 255, 255,rgb(0, 0, 0) 0));
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #ffffff; 
-    border-bottom-right-radius : 10px; 
-    border-top-left-radius: 10px;
-    padding: 10px;
-    margin: 5px;
-    border: 10px inset #6a6a6a;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #cecece; 
-  }
+/* Estilizando o botão de rolagem (o "pulso") */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, rgb(13, 162, 125), rgb(255, 255, 255), rgb(15, 103, 198));
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px; /* Borda arredondada do botão de rolagem */
+}
+
+/* Estilizando a trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(to top, rgb(167, 167, 167), rgb(205, 205, 205));
+}
