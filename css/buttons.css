@@ -25,6 +25,6 @@
   #submit:hover{
     transition: 1.3s;
     background-image: linear-gradient(to left, rgb(0, 255, 183), rgb(67, 0, 252));
-  
+    border: 2px inset #ffffff;
   }
 
