@@ -12,11 +12,12 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 96vw;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  justify-items: center;
   align-items: center;
   color:#494949;
   background: #C9D6FF;  /* fallback for old browsers */

@@ -13,14 +13,17 @@ html {
 
 
 body {
-  width: 100vw;
+  width: 96vw;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  justify-items: center;
   background: linear-gradient(to right, #1a1a1a, #393939);
+  
 }
+
 
 li {
   list-style: none;
