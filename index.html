@@ -480,12 +480,12 @@
           <img class="img-contact" src="assets/tt-contact-us.svg" alt="">
         </div>
 
-        <form class="center-column" action="#" method="POST">
-            <input id="nick-name" class="" type="text" name="name" placeholder="Informe o seu Nome" required>
-            <input id="e-mail" class="" type="email" name="email" placeholder="Seu Melhor E-mail">
+        <form class="center-column" action="" method="post">
+            <input id="nick-name" " type="text" name="name"  placeholder="Informe o seu Nome" aria-required="true" required>
+            <input id="e-mail"  type="email" name="email"  placeholder="Seu Melhor E-mail" aria-required="true" required>
             <p>Assunto: </p>
-            <textarea name="subject" id="subject" cols="40" rows="10"></textarea> 
-            <input type="submit" value="Enviar">
+            <textarea name="subject" id="subject" cols="40" rows="10" required aria-required="true"></textarea> 
+            <button id="submit" class="hvr-bob" type="submit" >Enviar</button>
         </form>
       </div>
     </div>

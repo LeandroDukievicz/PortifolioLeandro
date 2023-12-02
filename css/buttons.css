@@ -8,3 +8,23 @@
     border: 1px inset #009FFF;
   }
 
+  #submit{
+    width: 80%;
+    letter-spacing: .1rem;
+    font-size:1.1rem ;
+    border-radius: 10px;
+    cursor: pointer;
+    font: x-large;
+    margin: 20px;
+    padding: 10px;
+    color:aliceblue;
+    background-color: #8b8b8b;
+    border: 1px outset #424242;
+    
+  }
+  #submit:hover{
+    transition: 1.3s;
+    background-image: linear-gradient(to left, rgb(0, 255, 183), rgb(67, 0, 252));
+  
+  }
+
