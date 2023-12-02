@@ -1,0 +1,33 @@
+footer{
+    width: 90vw;
+    height: auto;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+#container-footer{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    padding-bottom:30px ;
+}
+
+#footer-1{
+    width: 50vw;
+    border-right: 1px solid #5b5b5b;
+    border-top: 1px solid #5b5b5b;
+    border-bottom: 1px solid #5b5b5b;
+    
+}
+
+#footer-2{
+    width: 50vw;
+    border-left: 1px solid #5b5b5b;
+    border-bottom: 1px solid #5b5b5b;
+    border-top: 1px solid #5b5b5b;
+}
+
+.spacing-footer{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
