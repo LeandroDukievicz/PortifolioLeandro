@@ -1,7 +1,7 @@
 
   #toggle-menu{
     font-size: 2rem;
-    color:#ff1500;
+    color:#00d0ff;
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
   }
   
@@ -34,7 +34,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(2px 2px 2px rgb(173, 173, 173)); 
+    
   }
   
   .material-symbols-outlined{

@@ -1,21 +1,17 @@
 
-
 .container-contact{
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
 }
-
 .img-contact{
     width: 45vw;
     height: auto;
     margin: 20px;
     filter: saturate(5%);
     padding: 20px;
-   
 }
-
 
 form{
     width: 40vw;
@@ -25,7 +21,6 @@ form{
     justify-content: end;
     justify-items: end;
 }
-
 input{
     width:80%;
     height: 40px;

@@ -20,7 +20,8 @@
     
   }
   #submit:hover{
-    transition: 1.3s;
+    transition: 1s;
+    color: #ffffff;
     background-image: linear-gradient(to left, rgb(0, 173, 124), rgb(67, 0, 252));
     
   }
