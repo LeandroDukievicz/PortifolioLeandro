@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
+    
   }
 
 html {
@@ -13,11 +14,12 @@ html {
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  background: #3c3c3c;    
+  background: linear-gradient(to right, #1a1a1a, #393939);
 }
 
 li {
