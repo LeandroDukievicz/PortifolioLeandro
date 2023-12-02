@@ -12,11 +12,9 @@
     margin:20px;
 }
 #img-zap:hover{
-    width: 11vw;
     transition: 1s;
     filter: saturate(75%);
 }
-
 
 
 footer{
