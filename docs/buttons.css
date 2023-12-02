@@ -1,0 +1,27 @@
+.all-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+
+
+  #submit{
+    width: 80%;
+    letter-spacing: .1rem;
+    font-size:1.1rem ;
+    border-radius: 10px;
+    cursor: pointer;
+    font: x-large;
+    margin: 20px;
+    padding: 10px;
+    color:rgb(42, 42, 42);
+    background-image: linear-gradient(to left, rgb(213, 213, 213), rgb(255, 255, 255));
+    border: 1px outset #d5d5d5;
+    
+  }
+  #submit:hover{
+    transition: 1.3s;
+    background-image: linear-gradient(to left, rgb(0, 173, 124), rgb(67, 0, 252));
+    
+  }
+

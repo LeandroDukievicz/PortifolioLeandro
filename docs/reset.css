@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color:#494949;
+  background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #e7ecff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+li {
+  list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#494949;
+}
+
+p{
+  color:rgb(176, 176, 176);
+  padding: 10px;
+  filter: drop-shadow(1px 1px 1px #757575);
+}
+
+
+
+

@@ -4,9 +4,7 @@ h1{
     letter-spacing: 0.3rem;
 }
 h2{
-   
     letter-spacing: normal;
-    
     font-size: 1.8rem;
 }
 
@@ -25,19 +23,17 @@ h2{
     width:27vw ;
     margin-top:160px ;
     height: auto;
-    filter: saturate(25%);
     margin:50px;
 }
 
 .social-media{
     width:50px;
     height: auto;
-    filter: saturate(5%);
+    
 }
 .social-media:hover{
     transition: 1s;
     padding :2px;
-    filter: saturate(100%);
     border-radius: 5px;
 }
 .scroll{

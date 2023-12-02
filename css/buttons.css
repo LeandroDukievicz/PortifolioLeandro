@@ -2,6 +2,7 @@
     padding: 10px;
     border: 1px inset #8a8a8a;
     border-radius: 10px;
+    margin-right: 30;
   }
   .all-btn:hover{
     transition: 1s;

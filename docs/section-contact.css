@@ -1,0 +1,45 @@
+
+
+.container-contact{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-contact{
+    width: 45vw;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+
+form{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: end;
+}
+
+input{
+    width:80%;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+}
+textarea{
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff, #eaeaea);
+}
+
