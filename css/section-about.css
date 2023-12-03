@@ -6,6 +6,7 @@ aside{
 #img-about{
     width:25vw ;
     height: auto;
+    filter: saturate(15%);
 }
 .scrollable-div {
     width: 730px; 
