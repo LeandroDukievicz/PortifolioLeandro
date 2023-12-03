@@ -1,29 +1,63 @@
 
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Estilos específicos para telas menores usando media query */
+
+  /* Estilos específicos para telas menores usando media query 
   @media only screen and (max-width: 768px) {
     body {
       font-size: 14px;
+    }*/
+  
+    @media screen and (min-width: 280px) and (max-width: 480px) {
+
+      body{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }  
+
+      h1{
+        font-size: 1.6rem;
+        text-align: center;
+        padding:15px;
+        margin: 10px;
+        line-height: 2.0rem;
+        justify-content: center;
+      }
+      h2{
+        margin:10px;
+        font-size: 1rem;
+      }
+
+      figure{
+        display: flex;
+        gap:30px;
+        margin:5px;
+        justify-content: center;
+        align-items: center;
     }
-  
-    .container {
-      padding: 10px;
-    }
-  
-    /* Adicione outras alterações de estilo necessárias para telas menores */
-  }
-  
-  /* Estilos específicos para telas muito pequenas, como smartphones */
-  @media only screen and (max-width: 480px) {
-    body {
-      font-size: 12px;
-    }
-  
-    /* Adicione outras alterações de estilo necessárias para telas muito pequenas */
-  }
-  
+    
+      
+      #apresentation{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top:50px;
+      }
+
+      #maquina-escrever{
+        font-size: 0.9rem;
+      }
+
+      .cards-apresentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;}
+      }
+
+      
+    
