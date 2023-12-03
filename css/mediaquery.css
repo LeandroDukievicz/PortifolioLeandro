@@ -1,12 +1,5 @@
 
-
-  /* Estilos específicos para telas menores usando media query 
-  @media only screen and (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }*/
-  
-    @media screen and (min-width: 280px) and (max-width: 480px) {
+    @media screen and (min-width: 280px) and (max-width: 340px) {
 
       body{
         width: 100vw;
@@ -14,19 +7,39 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-      }  
+      }
+
+      .nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0auto;
+      }
+   
+      .container{
+        width: 90vw;
+        height: auto;
+      }
+      #toggle-menu{
+        margin-top: 6px;
+        color:#00eaff;
+      }
+      .menu{
+        padding: 15px auto;
+      }
 
       h1{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         text-align: center;
         padding:15px;
-        margin: 10px;
+        margin: 0 auto;
         line-height: 2.0rem;
         justify-content: center;
       }
       h2{
         margin:10px;
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
 
       figure{
@@ -37,7 +50,6 @@
         align-items: center;
     }
     
-      
       #apresentation{
         width: 100vw;
         height: auto;
@@ -45,18 +57,48 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top:50px;
+        margin-top:30px;
       }
-
       #maquina-escrever{
-        font-size: 0.9rem;
+        display: none;
       }
-
       .cards-apresentation {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;}
+        justify-content: center;
+      }
+      .social-media{
+          width: 30px;
+      }
+      #img-apresentation{
+        width: 70vw;
+        height: auto;
+        margin-top: 80px;
+      }
+
+      #about{
+        margin-top: -20px;
+      }
+      #img-about{
+        display: none;
+      }
+      .scrollable-div {
+        width: 99vw; 
+        height: 60vh; 
+        overflow-y: scroll; 
+        color:rgb(201, 201, 201) ; 
+        font-family: 'Montserrat', sans-serif;
+        line-height:1.5rem;
+        border: 1px outset #393939;
+        border-radius: 10px;
+      }
+    
+
+
+
+
+
       }
 
       
