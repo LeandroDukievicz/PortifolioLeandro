@@ -40,6 +40,7 @@
       h2{
         margin:10px;
         font-size: 1.2rem;
+        text-align: center;
       }
 
       figure{
@@ -93,12 +94,26 @@
         border: 1px outset #393939;
         border-radius: 10px;
       }
+      
+   
     
-
-
-
-
-
+      #cards-section-skill{
+          width: 100vw;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content:center ;
+          align-items: center;
+          justify-items: center;
+          padding:10px;
+          margin:5px;
+      }
+      .adjust-p{
+        width: 100vw;
+        height: auto;
+        padding: 10px;
+      }
+   
       }
 
       

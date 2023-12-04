@@ -6,7 +6,7 @@
   }
   
   .container {
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -15,8 +15,8 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     border: 1px outset #424242;
     border-radius: 15px;
-    padding: 15px;
-    margin: 15px auto;
+    padding: 10px;
+    
   }
 
   
