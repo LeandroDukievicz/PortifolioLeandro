@@ -7,9 +7,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0auto;
       }
 
+
       .nav{
+        width: 100vw;
+        height: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -18,16 +22,20 @@
       }
    
       .container{
-        width: 90vw;
+        width:96vw;
         height: auto;
+        margin: 0 auto;
+        text-align: center;
       }
       #toggle-menu{
         margin-top: 6px;
         color:#00eaff;
       }
+
       .menu{
-        padding: 15px auto;
+        margin:0 auto;
       }
+
 
       h1{
         font-size: 1.8rem;

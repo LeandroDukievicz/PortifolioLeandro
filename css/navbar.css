@@ -7,7 +7,7 @@
   
   .container {
     width: 60vw;
-    margin: 0 auto;
+  
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@
   .nav {
     background: -webkit-linear-gradient(to right, #222222, #3a3a3a);
     
-    min-height: 60px;
+   
     padding: 10px;
    
   }
@@ -69,6 +69,9 @@
   /*flex box*/
   .menu ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
   
   .menu ul li {

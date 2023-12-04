@@ -20,11 +20,31 @@ body {
   justify-items: center;
   align-items: center;
   color:#494949;
-  background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E2E2E2, #e7ecff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  /* background-color:silver;
+  background:
+  radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, rgb(232, 232, 232) 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+  radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, rgb(217, 217, 217) 10px, rgba(96, 16, 48, 0) 11px),
+  rgb(255, 255, 255);
+  background-size: 20px 20px; */
+  /* background:
+    radial-gradient(rgb(213, 213, 213) 3px, transparent 4px),
+    radial-gradient(rgb(197, 197, 197) 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; */
+    background:
+    linear-gradient(135deg, #ececec 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #ececec 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ececec 25%, transparent 25%),
+    linear-gradient(45deg, #ececec 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #e5e5e5;
 }
+
+
 
 li {
   list-style: none;
