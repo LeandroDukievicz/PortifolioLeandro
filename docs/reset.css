@@ -23,12 +23,12 @@ body {
 }
 
 .css-selector {
-  background: linear-gradient(44deg, #cccccc, #c6c6c6, #b7b7b7);
+  background: linear-gradient(44deg, #f0eded, #faf3f3, #d2d2d2);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 16s ease infinite;
   -moz-animation: AnimationName 16s ease infinite;
   -o-animation: AnimationName 16s ease infinite;
-  animation: AnimationName 16s ease infinite;
+  animation: AnimationName 10s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
