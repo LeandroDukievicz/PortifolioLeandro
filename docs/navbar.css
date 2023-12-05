@@ -11,14 +11,18 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(to right, #eeeeee, #fff1f1);
-    box-shadow: 10px 10px 10px rgba(144, 144, 144, 0.5);
+    box-shadow: 10px 10px 10px rgba(92, 92, 92, 0.5);
     border: 1px outset #f4f4f4;
     border-radius: 15px;
     padding: 15px;
     margin: 15px auto;
-   
-    
+    background:
+    radial-gradient(rgb(233, 233, 233) 15%, transparent 16%) 0 0,
+    radial-gradient(rgb(213, 213, 213) 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(183, 183, 183, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(218, 218, 218, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color:#ffffff;
+    background-size:16px 16px;
   }
 
   

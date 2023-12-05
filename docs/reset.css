@@ -20,28 +20,36 @@ body {
   justify-items: center;
   align-items: center;
   color:#494949;
-  /* background-color:silver;
-  background:
-  radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, rgb(232, 232, 232) 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
-  radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, rgb(217, 217, 217) 10px, rgba(96, 16, 48, 0) 11px),
-  rgb(255, 255, 255);
-  background-size: 20px 20px; */
-  /* background:
-    radial-gradient(rgb(213, 213, 213) 3px, transparent 4px),
-    radial-gradient(rgb(197, 197, 197) 3px, transparent 4px),
-    linear-gradient(#fff 4px, transparent 0),
-    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
-    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-    #fff;
-    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; */
-    background:
-    linear-gradient(135deg, #ececec 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, #ececec 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, #ececec 25%, transparent 25%),
-    linear-gradient(45deg, #ececec 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: #e5e5e5;
+}
+
+.css-selector {
+  background: linear-gradient(44deg, #cccccc, #c6c6c6, #b7b7b7);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 16s ease infinite;
+  -moz-animation: AnimationName 16s ease infinite;
+  -o-animation: AnimationName 16s ease infinite;
+  animation: AnimationName 16s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 90%}
+  50%{background-position:100% 11%}
+  100%{background-position:0% 90%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 90%}
+  50%{background-position:100% 11%}
+  100%{background-position:0% 90%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 90%}
+  50%{background-position:100% 11%}
+  100%{background-position:0% 90%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 90%}
+  50%{background-position:100% 11%}
+  100%{background-position:0% 90%}
 }
 
 
