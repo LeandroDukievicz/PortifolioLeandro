@@ -7,7 +7,6 @@
   
   .container {
     width: 60vw;
-  
     display: flex;
     align-items: center;
     flex-wrap: wrap;

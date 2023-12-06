@@ -41,8 +41,6 @@ input{
 textarea{
     width: 40vw;
     border-radius: 15px;
-  
- 
     padding: 10px;
     background: linear-gradient(to right, #ffffff, #bdbdbd);
 }

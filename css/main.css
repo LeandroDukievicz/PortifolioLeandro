@@ -21,7 +21,7 @@ body {
 }
 
 .css-selector {
-  background: linear-gradient(44deg, #292929, #434343, #4b4b4b);
+  background: linear-gradient(44deg, #1f1f1f, #434343, #272727);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 16s ease infinite;
   -moz-animation: AnimationName 16s ease infinite;
@@ -61,10 +61,13 @@ a{
 
 p{
   color:rgb(176, 176, 176);
-  padding: 5px;
+  padding:8px;
   filter: drop-shadow(2px 2px 2px #000);
 }
 
-
+h4,h5{
+  margin-top: 10px;
+  padding:7px;
+}
 
 

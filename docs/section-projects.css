@@ -48,9 +48,7 @@ details {
 	margin-bottom: 10px;
 	
 }
-/* details:hover {
-	filter: drop-shadow(2px 2px 5px #404040);
-} */
+
 details > summary {
 	color:rgb(0, 0, 0);
     margin: 10px;

@@ -1,5 +1,6 @@
-#skills{
-  margin-top: 30px;
+#hard-skills{
+  margin-top: 50px;
+  margin-bottom:20px;
 }
 
 .card-skill{
@@ -10,7 +11,7 @@
     margin-top: 50px;
 }
 #top-skill{
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 .img-skill{
@@ -27,9 +28,11 @@ section#hard-skills {
 #icons-hard-skills{
     width: 100vw;
     height: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 80px;
+    padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
   
