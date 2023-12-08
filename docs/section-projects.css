@@ -4,15 +4,6 @@
     margin: 20px;
 }
 
-.card-project{
-    width: 20vw;
-    height: auto;
-    border: 1px inset #dbdbdb;
-    border-radius:15px ;
-    margin:50px;
-    margin-top: 50px;
-}
-
 .img-projects{
     width: 300px;
     height: auto;
@@ -41,7 +32,7 @@
 	/* width: calc(100% - 20px); */
     padding:10px;
     margin: 10px;
-    border: 1px outset #eaeaea;
+    
     border-radius: 15px;
 }
 details {

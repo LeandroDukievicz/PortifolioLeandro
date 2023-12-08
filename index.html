@@ -37,6 +37,7 @@
   <link rel="stylesheet" href="css/app.css">
   <title>Leandro Dukiévicz</title>
 </head>
+
 <body class="css-selector">
   <header id="section-header" class="nav" data-aos="fade-down">
     <div class="container">
@@ -208,10 +209,10 @@
   </section>
 
   <section id="projects" class="sections">
-    <h1 class="gradient1 center-column" data-aos="fade-up" data-aos-anchor-placement="center-center">Projetos </h1>
+    <h1 class="gradient1 center-column" >Projetos </h1>
 
-    <div class="center-row">
-      <div class="accordion center-column" data-aos="flip-right">
+    <div  class="center-row cards-projects">
+      <div class="accordion center-column" >
         <h3 class="gradient1">Barbershop</h3> <br>
         <img src="assets/barber.svg" alt="" class="img-projects">
         <div class="center-row">
@@ -251,7 +252,7 @@
             </div>
         </details>
       </div>
-      <div class="accordion center-column" data-aos="flip-left">
+      <div class="accordion center-column" >
         <h3 class="gradient1">Landing Page Agency</h3> <br>
         <img src="assets/agency.svg" alt="" class="img-projects">
         <div class="center-row">
@@ -267,7 +268,7 @@
               Foi um dos projetos que desenvolvi para iniciar o aprendizado deste framework, além de aplicar 
               algumas tags e técnicas novas de css que eu ainda havia colocado em prática até então.
             </p>
-            <div class="center-row">
+            <div class="center-row card-detail" >
               <a class="center-column" href="https://github.com/LeandroDukievicz/sass-project-agency" target="_blank">
                 <i class="devicon-github-original  stack"></i>repositório
               </a>
@@ -279,7 +280,7 @@
       </div>
 
 
-      <div class="accordion center-column" data-aos="flip-right">
+      <div class="accordion center-column" >
         <h3 class="gradient1">Electrum</h3> <br>
         <img src="assets/electrum.svg" alt="" class="img-projects">
         <div class="center-row">
@@ -326,8 +327,8 @@
       </div>
     </div>
 
-    <div class="center-row">
-      <div class="accordion center-column" data-aos="flip-left">
+    <div class="center-row cards-projects">
+      <div class="accordion center-column " >
         <h3 class="gradient1">Landing Page - iMovi</h3> <br>
         <img src="assets/imovi.svg" alt="" class="img-projects">
         <div class="center-row">
@@ -371,7 +372,7 @@
           </div>
       </div>
 
-      <div class="accordion center-column" data-aos="flip-right">
+      <div class="accordion center-column" >
         <h3 class="gradient1">Desafio Nacional</h3> <br>
         <img src="assets/desafio.svg" alt="" class="img-projects">
         <div class="center-row">
@@ -406,7 +407,7 @@
         </details>
       </div>
 
-      <div class="accordion center-column" data-aos="flip-right">
+      <div class="accordion center-column" >
         <h3 class="gradient1">Bootcamp NLW </h3> <br>
         <img src="assets/nlw.svg" alt="" class="img-projects">
         <div class="center-row">
@@ -463,11 +464,11 @@
           <img class="img-contact" src="assets/tt-contact-us.svg" alt="">
         </div>
         <form action="" method="post" data-aos="fade-left" data-aos-anchor="#example-anchor"    data-aos-offset="500" data-aos-duration="1000">
-                <p><i class="fa-regular fa-user gradient1"></i> Nome</p >
-                <input id="nick-name" type="text" name="name"  placeholder="Informe o seu Nome"  aria-required="true" required>
-                <p><i class="fa-regular fa-envelope gradient1"></i> E-mail</p >
-                <input id="e-mail"  type="email" name="email"  placeholder="Seu Melhor E-mail" aria-required="true" required>
-                <p><i class="fa-regular fa-comments gradient1"></i> Assunto: </p>
+                <span class="gradient1"><i class="fa-regular fa-user gradient1"></i> Nome</span>
+                <input id="nick-name" type="text" name="name"  placeholder="Insira nome e sobrenome"  aria-required="true" required><br>
+                <span class="gradient1"><i class="fa-regular fa-envelope gradient1"></i> E-mail</span >
+                <input id="e-mail"  type="email" name="email"  placeholder="Seu melhor E-mail" aria-required="true" required> <br>
+                <span class="gradient1"><i class="fa-regular fa-comments gradient1"></i> Assunto: </span>
                 <textarea name="subject" id="subject" cols="40" rows="08" required aria-required="true"></textarea> 
                 <button id="submit" class="hvr-bob" type="submit" >Enviar</button>
                
