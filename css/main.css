@@ -18,8 +18,10 @@ body {
   justify-content: center;
   align-items: center;
   justify-items: center;
+  background: linear-gradient(44deg, #1f1f1f, #434343, #272727);
 }
-
+/* ANIMATION BACKGROUND */
+/*
 .css-selector {
   background: linear-gradient(44deg, #1f1f1f, #434343, #272727);
   background-size: 600% 600%;
@@ -48,7 +50,7 @@ body {
   0%{background-position:0% 90%}
   50%{background-position:100% 11%}
   100%{background-position:0% 90%}
-}
+} */
 
 
 li {
