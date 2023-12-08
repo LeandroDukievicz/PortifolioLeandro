@@ -58,18 +58,17 @@
   justify-content: space-between;
 }
 ::-webkit-scrollbar {
-  width: 15px; /* Largura da barra de rolagem para navegadores WebKit (Chrome, Safari, etc.) */
+  width: 15px;
+  /* Largura da barra de rolagem para navegadores WebKit (Chrome, Safari, etc.) */
 }
 
 /* Estilizando o botão de rolagem (o "pulso") */
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to bottom, rgb(77, 77, 77), rgb(255, 255, 255), rgb(87, 87, 87));
-  border-radius: 10px;
-  padding: 10px;
-  margin: 15px; /* Borda arredondada do botão de rolagem */
+  background-image: linear-gradient(to bottom, rgb(77, 77, 77), rgb(210, 210, 210), rgb(87, 87, 87));
+  border-radius:15px;
 }
 
 /* Estilizando a trilha da barra de rolagem */
 ::-webkit-scrollbar-track {
-  background-image: linear-gradient(to top, rgb(167, 167, 167), rgb(39, 39, 39));
+  background-image: linear-gradient(to top, rgb(67, 67, 67), rgb(39, 39, 39));
 }

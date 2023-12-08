@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import url(../css/mediaquery.css);
+@import url(mediaquery.css);
 @import url(navbar.css);
 @import url(apresentation.css);
 @import url(section-about.css);
