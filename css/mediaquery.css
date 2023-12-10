@@ -10,7 +10,6 @@
         margin: 0auto;
       }
 
-
       .nav{
         width: 100vw;
         height: auto;
@@ -202,13 +201,38 @@
         height: auto;
         padding: 5px;
         margin: 5px;
-    
-  
     }
 
+    #contact-me{
+      margin-top: -100px;
+    }
+    h1{
+      margin:10px;
+    }
+    #svg-contact{
+      display: none;
+    }
+    form{
+      width:100vw;
+      height: auto;
+      padding:10px;
+    }
+    input{
+      width : 100vw;
+    }
+    textarea{
+      width:100vw;
+    }
+    #submit{
+      width: 50vw;
+      height: auto;
+    }
 
+    #img-zap{
+      width:70px;
+    }
    
-      }
+  }
 
       
     
