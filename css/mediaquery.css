@@ -269,11 +269,10 @@
       flex-direction: column;
       align-items: center;
       margin: 0auto;
-  
     }
   
     .container {
-      width: 96vw;
+      width: 100vw;
       height: auto;
       margin: 0 auto;
       text-align: center;
@@ -283,6 +282,7 @@
     #toggle-menu {
       margin-top: 6px;
       color: #00eaff;
+      margin-right:75px ;
     }
   
     .menu {
