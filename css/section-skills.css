@@ -1,7 +1,3 @@
-#hard-skills{
-  margin-top: 50px;
-  margin-bottom:20px;
-}
 
 .card-skill{
     width: 27vw;
@@ -27,21 +23,8 @@
   flex-direction: column ;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-
+  
 }
-
-#icons-hard-skills{
-    width: 100vw;
-    height: auto;
-=======
-}
-
-#icons-hard-skills{
->>>>>>> v1.0.0
-    margin: 0 auto ;
-    flex-wrap: wrap;
-  }
 
   .icons-hard{
     display: flex;
@@ -49,33 +32,16 @@
     justify-content: center;
     align-items: center;
     justify-items:center ;
-<<<<<<< HEAD
-    font-size: 40px;
+    font-size: 50px;
     width: 50px;
     height: 50px;
-    margin: 0auto;
-    border-radius: 10px;
-    padding: 30px;
-=======
-    font-size: 60px;
-    width: 60px;
-    height: 60px;
-    margin: 0auto;
+    margin-top: 30px;
     border-radius: 10px;
     padding: 40px;
->>>>>>> v1.0.0
     filter: saturate(5%);
     border: 1px outset #474747;
-    backdrop-filter: blur(5px);
   }
-<<<<<<< HEAD
 i{
-  margin:15px;
+  margin: 10px;
+  
 }
-=======
-
-i{
-  margin:15px;
-}
-
->>>>>>> v1.0.0
