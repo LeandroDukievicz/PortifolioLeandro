@@ -21,14 +21,14 @@ form{
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    justify-items: end;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 input{
     width:80%;
     height: 40px;
-    margin: 20px;
     padding: 10px;
     border-radius: 15px;
     border: none;
@@ -38,7 +38,6 @@ textarea{
     width: 80%;
     border-radius: 15px;
     border: none;
-    margin: 20px;
     padding: 10px;
     background: linear-gradient(to bottom, #ffffff, #eaeaea);
 }

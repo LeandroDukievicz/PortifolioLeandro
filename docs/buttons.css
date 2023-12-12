@@ -6,13 +6,13 @@
 
 
   #submit{
-    width: 80%;
+    
     letter-spacing: .1rem;
     font-size:1.1rem ;
     border-radius: 10px;
     cursor: pointer;
     font: x-large;
-    margin: 20px;
+    margin:0auto;
     padding: 10px;
     color:rgb(42, 42, 42);
     background-image: linear-gradient(to left, rgb(213, 213, 213), rgb(255, 255, 255));

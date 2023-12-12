@@ -1,48 +1,53 @@
 
 .card-skill{
-    width: 20vw;
+    width: 27vw;
     height: auto;
+<<<<<<< HEAD
     border: 1px inset #424242;
     border-radius:15px ;
+=======
+    padding:10px;
+    margin:10px;
+>>>>>>> 3b050f7a0f924bc0834f86d7dd4ed063d0be4157
     margin-top: 50px;
     margin-bottom: 50;
 }
+
 #top-skill{
-    margin-top: -5px;
+    margin-top: -20px;
 }
 
 .img-skill{
     padding:10px;
     width: 100px;
     filter: saturate(25%);
-
 }
 
-section#hard-skills {
-  margin-top: 80px;
-}
-
-#icons-hard-skills{
-    width: 100vw;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+  #hard-skills {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
   
-  }
+}
 
   .icons-hard{
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
+    justify-items:center ;
     font-size: 50px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
     border-radius: 10px;
-    padding: 50px;
+    padding: 40px;
     filter: saturate(5%);
     border: 1px outset #474747;
-    backdrop-filter: blur(5px);
   }
+i{
+  margin: 10px;
+  
+}

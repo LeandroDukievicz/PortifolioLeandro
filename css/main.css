@@ -4,31 +4,31 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
-    
   }
 
 html {
+  
   scroll-behavior: smooth;
 }
 
 body {
-  width: 96vw;
-  height: auto;
+  max-width: 96vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-items: center;
   align-items: center;
-  color:#494949;
+  justify-items: center;
+  background: linear-gradient(44deg, #1f1f1f, #434343, #272727);
 }
-
+/* ANIMATION BACKGROUND */
+/*
 .css-selector {
-  background: linear-gradient(44deg, #f0eded, #faf3f3, #d2d2d2);
+  background: linear-gradient(44deg, #1f1f1f, #434343, #272727);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 16s ease infinite;
   -moz-animation: AnimationName 16s ease infinite;
   -o-animation: AnimationName 16s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  animation: AnimationName 16s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -50,8 +50,7 @@ body {
   0%{background-position:0% 90%}
   50%{background-position:100% 11%}
   100%{background-position:0% 90%}
-}
-
+} */
 
 
 li {
@@ -60,15 +59,17 @@ li {
 
 a{
     text-decoration: none;
-    color:#494949;
 }
 
 p{
   color:rgb(176, 176, 176);
-  padding: 10px;
-  filter: drop-shadow(1px 1px 1px #757575);
+  padding:8px;
+  filter: drop-shadow(2px 2px 2px #000);
 }
 
-
+h4,h5{
+  margin-top: 10px;
+  padding:7px;
+}
 
 

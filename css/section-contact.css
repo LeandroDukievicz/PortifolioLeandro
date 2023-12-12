@@ -1,4 +1,13 @@
-
+#contact-me{ 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   justify-items: center;
+   margin: 0auto;
+   padding:30px;
+   
+}
 .container-contact{
     width: 100vw;
     height: auto;
@@ -6,33 +15,32 @@
     justify-content: center;
 }
 .img-contact{
-    width: 45vw;
+    width: 40vw;
+    margin:40px;
     height: auto;
-    margin: 20px;
     filter: saturate(5%);
-    padding: 20px;
+   
 }
-
 form{
     width: 40vw;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-between;
     justify-items: end;
+   
 }
 input{
-    width:80%;
+    width:40vw;
     height: 40px;
-    margin: 20px;
-    padding: 10px;
+    padding: 15px;
+   
     border-radius: 15px;
     background: linear-gradient(to right, #ffffff, #bdbdbd);
 }
 textarea{
-    width: 80%;
+    width: 40vw;
     border-radius: 15px;
-    margin: 20px;
     padding: 10px;
     background: linear-gradient(to right, #ffffff, #bdbdbd);
 }
