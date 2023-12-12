@@ -8,8 +8,14 @@
         flex-direction: column;
         align-items: center;
       }
+      #section-header{
+        width: 100vw;
+        height: auto;
+      }
 
       .nav{
+        width: 100vw;
+        height: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -18,8 +24,12 @@
       }
    
       .container{
-        width: 90vw;
+        width: 100vw;
         height: auto;
+        display: flex;
+        justify-content:center ;
+        
+
       }
       #toggle-menu{
         margin-top: 6px;
