@@ -1,15 +1,5 @@
 @media screen and (min-width: 280px) and (max-width: 350px) {
 
-  body {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0auto;
-  }
-
-<<<<<<< HEAD
       body{
         width: 100vw;
         height: auto;
@@ -47,7 +37,7 @@
       .menu{
         padding: 15px auto;
       }
-=======
+
   .nav {
     width: 100vw;
     height: auto;
@@ -58,7 +48,6 @@
     margin: 0auto;
 
   }
->>>>>>> 3b050f7a0f924bc0834f86d7dd4ed063d0be4157
 
   .container {
     width: 96vw;
@@ -193,7 +182,6 @@
   #container-icon{
     display: flex;
     flex-direction: space-around;
-    border: #d3f800;
     flex-wrap: wrap;
     margin: 15px;
   }
@@ -257,6 +245,7 @@
 
   details>p {
     display: none;
+
   }
 
   .stack {
@@ -453,7 +442,6 @@
   #container-icon{
     display: flex;
     flex-direction: space-around;
-    border: #d3f800;
     flex-wrap: wrap;
     margin: 15px;
   }
@@ -707,7 +695,6 @@
   #container-icon{
     display: flex;
     flex-direction: space-around;
-    border: #d3f800;
     flex-wrap: wrap;
     margin: 15px;
   }

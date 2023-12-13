@@ -1,20 +1,15 @@
+#skills{
+  margin: 0 auto;
+}
 
 .card-skill{
     width: 27vw;
-    height: auto;
-<<<<<<< HEAD
+    height: 85vh;
     border: 1px inset #424242;
     border-radius:15px ;
-=======
-    padding:10px;
-    margin:10px;
->>>>>>> 3b050f7a0f924bc0834f86d7dd4ed063d0be4157
+    padding:15px;
     margin-top: 50px;
-    margin-bottom: 50;
-}
-
-#top-skill{
-    margin-top: -20px;
+    margin-bottom: 50px;
 }
 
 .img-skill{
