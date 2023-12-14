@@ -399,6 +399,12 @@
     padding: 5px;
   }
 
+  .card-skill{
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
   #cards-section-skill {
     width: 100vw;
     height: auto;
@@ -446,7 +452,7 @@
   }
 
   #projects {
-    margin-top: -150px;
+    margin-top: -70px;
     display: flex;
     flex-direction: column;
     width: 100vw;
