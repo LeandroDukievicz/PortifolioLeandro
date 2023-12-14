@@ -27,11 +27,12 @@
   flex-direction: column ;
   justify-content: center;
   align-items: center;
+  
 }
 
 #icons-hard-skills{
     margin: 0 auto ;
-    flex-wrap: wrap;
+    
   }
 
   .icons-hard{
@@ -49,6 +50,7 @@
     filter: saturate(5%);
     border: 1px outset #474747;
     backdrop-filter: blur(5px);
+   
   }
 
 i{
