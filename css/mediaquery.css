@@ -136,6 +136,12 @@
     margin:0 auto;
     padding: 5px;
   }
+  .card-skill{
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
   #hard-skills {
     width: 100vw;
