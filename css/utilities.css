@@ -27,7 +27,7 @@
   }
   
   .gradient3 {
-    background-image: linear-gradient(to bottom, rgb(204, 25, 25), rgb(197, 92, 11), rgb(255, 25, 25));
+    background-image: linear-gradient(to bottom, rgb(0, 255, 200), rgb(87, 255, 177), rgb(90, 219, 255));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
