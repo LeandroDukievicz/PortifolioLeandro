@@ -34,13 +34,13 @@ input{
     padding: 15px;
     border: none;
     border-radius: 15px;
-    background: linear-gradient(to right, #dcdcdc, #42d0f7);
+    background: linear-gradient(to right, #dcdcdc, #e7e7e7);
 }
 textarea{
     width: 40vw;
     border-radius: 15px;
     padding: 10px;
-    background: linear-gradient(to right, #d3d3d3, #a5e4f4);
+    background: linear-gradient(to right, #d3d3d3, #e3e3e3);
     border: none;
 }
 
