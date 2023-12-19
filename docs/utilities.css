@@ -1,5 +1,5 @@
 .sections{
-  width: 100vw;
+  width: 96vw;
   height: auto;
   margin-top:80px;
   margin-bottom: 50px;
@@ -9,36 +9,33 @@
 }
 
 .gradient1 {
-    background-image: linear-gradient(to top, rgb(46, 46, 46), rgb(80, 80, 80));
+    background-image: linear-gradient(to bottom, rgb(0, 164, 176), rgb(0, 108, 209));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(2px 2px 2px rgb(255, 255, 255)); 
+   
   }
 
-  .gradient2 {
-    background-image: linear-gradient(to bottom, rgb(31, 198, 198), rgb(24, 65, 160));
+  .gradient2{
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(108, 108, 108));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(1px 1px 1px rgb(0, 0, 0)); 
+    filter:drop-shadow(1px 1px 1px rgb(108, 108, 108)); 
   }
   
   .gradient3 {
-    background-image: linear-gradient(to bottom, rgb(113, 113, 113), rgb(82, 82, 82), rgb(21, 21, 21));
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(45, 45, 45), rgb(26, 26, 26));
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
+    
   }
 
 
-
-
-  
 .center-column{
   display: flex;
   justify-content: center;
@@ -61,18 +58,18 @@
   justify-content: space-between;
 }
 ::-webkit-scrollbar {
-  width: 15px; /* Largura da barra de rolagem para navegadores WebKit (Chrome, Safari, etc.) */
+  width: 15px;
+  /* Largura da barra de rolagem para navegadores WebKit (Chrome, Safari, etc.) */
 }
 
 /* Estilizando o botão de rolagem (o "pulso") */
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to bottom, rgb(13, 162, 125), rgb(255, 255, 255), rgb(15, 103, 198));
-  border-radius: 10px;
-  padding: 10px;
-  margin: 15px; /* Borda arredondada do botão de rolagem */
+  background-image: linear-gradient(to bottom, rgb(44, 255, 244), rgb(210, 210, 210), rgb(42, 95, 255));
+  border-radius:15px;
 }
 
 /* Estilizando a trilha da barra de rolagem */
 ::-webkit-scrollbar-track {
-  background-image: linear-gradient(to top, rgb(167, 167, 167), rgb(205, 205, 205));
+  background-image: linear-gradient(to top, rgb(163, 163, 163), rgb(220, 220, 220));
 }
+

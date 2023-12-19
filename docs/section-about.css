@@ -6,12 +6,13 @@ aside{
 #img-about{
     width:25vw ;
     height: auto;
+    filter: saturate(15%);
 }
 .scrollable-div {
     width: 730px; 
     height: 300px; 
     overflow-y: scroll;
-    padding: 20px; 
+    padding: 10px; 
     color:rgb(201, 201, 201) ; 
     font-family: 'Montserrat', sans-serif;
     line-height:2;

@@ -34,7 +34,6 @@ input{
     width:40vw;
     height: 40px;
     padding: 15px;
-   
     border-radius: 15px;
     background: linear-gradient(to right, #ffffff, #bdbdbd);
 }
@@ -44,4 +43,6 @@ textarea{
     padding: 10px;
     background: linear-gradient(to right, #ffffff, #bdbdbd);
 }
-
+#img-zap,#whats{
+    filter: saturate(100%);
+}

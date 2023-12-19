@@ -1,538 +1,665 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description"
-    content="Front-end, Portifólio Pessoal, Sistemas p/ Internet, Leandro Dukiévicz, dukievicz, Desenvolvedor Front End, javascript, html, css,php,laravel, web">
-  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+      content="Front-end, Portifólio Pessoal, Sistemas p/ Internet, 
+                Leandro Dukiévicz, dukievicz, Desenvolvedor Front End,
+                 javascript, html, css,php,laravel, web">
     <!-- DEV-ICON -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS lib js   -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js"
+      integrity="sha512-F/e65ZqVgVghvi8+r9UsfxC9Ew1dGjLcj5PfFFVtUNFoHQ05w10cg8eHsPC4RJJ5yCjPLW7+ChUramlE4NKHgA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- DEV-ICON -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Hover.css -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Roboto&family=Roboto+Mono:wght@300;400&display=swap"
+      rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="app.css" >
+    <title>Leandro Dukiévicz</title>
+  </head>
 
-  <!-- AOS lib js   -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js"
-    integrity="sha512-F/e65ZqVgVghvi8+r9UsfxC9Ew1dGjLcj5PfFFVtUNFoHQ05w10cg8eHsPC4RJJ5yCjPLW7+ChUramlE4NKHgA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- DEV-ICON -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <!-- Hover.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Google Fonts  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Roboto&family=Roboto+Mono:wght@300;400&display=swap"
-    rel="stylesheet">
-  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="app.css">
-  <title>Leandro Dukiévicz</title>
-</head>
-
-<body class="css-selector">
-  <header id="section-header" class="nav" data-aos="fade-down">
-    <div class="container">
-      <div class="logo">
-        <a href="">
-          <img id="img-logo" class="hvr-bob" src="../img/favicon.png" alt="">
-        </a>
-      </div>
-      <label for="toggle">
-        <i id="toggle-menu" class="fa-solid fa-bars"></i>
-      </label>
-      <input type="checkbox" id="toggle">
-      <nav class="menu">
-        <ul>
-          <li id="home" class="hvr-pulse"><a href="../docs/light.html" class="gradient1">Home </a></li>
-          <li class="hvr-pulse"><a href="#about" class="gradient1">Sobre</a></li>
-          <li class="hvr-pulse"><a href="#skills" class="gradient1">Skills</a></li>
-          <li class="hvr-pulse"><a href="#projects" class="gradient1">Projetos</a></li>
-          <li class="hvr-pulse"><a href="../blog.html" target="_blank" class="gradient1">Blog</a></li>
-          <li class="hvr-pulse"><a href="#contact-me" class="gradient1 all-btn">Contato</a></li>
-          <li><a href="../index.html"><img class="theme" src="../assets/light.svg" alt="" data-aos="fade-right"
-            data-aos-offset="300"data-aos-easing="ease-in-sine"></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="apresentation" class="sections" data-aos="fade-up" data-aos-duration="3000">
-    <div class="cards-apresentation">
-      <div class="center-column">
-        <div id="maquina-escrever" class="gradient1 ">
+  <body>
+    <header id="section-header" class="nav" data-aos="fade-down" data-aos-duration="3000">
+      <div class="container">
+        <div class="logo">
+          <a href="#">
+            <img id="img-logo" class="hvr-bob" src="../img/favicon.png"
+              alt="simbolo utilizado na programação, está sendo utilizado como logotipo, sendo
+            sinal de menor, contrabarra, sinal de maior, o que indica abertura e fechamento, 
+            está nas cores em degradê, sendo um azul claro decaindo para um verde.">
+          </a>
         </div>
-        <div class="center-column">
-            <h1 class="gradient2 ">Leandro Dukiévicz</h1>
-            <h2 class="gradient2">Front End - Developer</h2>
-            <figure >
-              <a href="mailto:leandrodukievicz1718@gmail.com"> <img class="social-media"  src="../assets/gmail.svg" alt=""></a>
-              <a href="https://www.linkedin.com/in/leandrodukievicz/" alt="" target="_blank"> <img class="social-media" src="../assets/linkedin.svg" alt=""></a>
-              <a href="https://github.com/LeandroDukievicz" target="_blank"><img class="social-media" src="../assets/git.svg" alt=""></a>
-              <a href="https://discord.com/invite/s22Rc3ke" target="_blank"><img class="social-media" src="../assets/discord.svg" alt=""></a>
-            </figure>
+        <label for="toggle">
+          <i id="toggle-menu" class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="toggle">
+        <nav class="menu">
+          <ul>
+            <li id="home" class="hvr-pulse gradient1"><a href="index.html">Home</a></li>
+            <li class="hvr-pulse gradient1"><a href="#about">Sobre</a></li>
+            <li class="hvr-pulse gradient1"><a href="#skills" >Skills</a></li>
+            <li class="hvr-pulse gradient1"><a href="#projects" >Projetos</a></li>
+            <li class="hvr-pulse gradient1"><a href="blog.html" target="_blank"
+                >Blog</a></li>
+            <li class="hvr-pulse"><a href="#contact-me"
+                class="gradient1 all-btn">Contato</a></li>
+            <li><a href="../index.html"><img class="theme"
+                  src="../assets/light.svg" alt data-aos="fade-left"
+                  data-aos-offset="300" data-aos-easing="ease-in-sine"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-            <button class="gradient2 all-btn hvr-pulse">
-              <a href=""> Download CV
-                <i class="fa-solid fa-download" style="color: #5c5c5c;"></i>
+    <section id="apresentation" class="sections center-row" data-aos="fade-up"
+      data-aos-duration="3000">
+      <div class="cards-apresentation">
+        <div class="center-column">
+          <div id="maquina-escrever" class="gradient3 "></div>
+          <div class="center-column">
+            <h1 class="gradient3 ">Leandro Dukiévicz</h1>
+            <h2 class="gradient3">Front End - Developer</h2>
+            <figure>
+              <a href="mailto:leandrodukievicz1718@gmail.com"> <img
+                  class="social-media" src="../assets/gmail.svg" alt></a>
+              <a href="https://www.linkedin.com/in/leandrodukievicz/" alt
+                target="_blank"> <img class="social-media"
+                  src="../assets/linkedin.svg"></a>
+              <a href="https://github.com/LeandroDukievicz" target="_blank"><img
+                  class="social-media" src="../assets/git.svg" alt></a>
+              <a href="https://discord.com/invite/s22Rc3ke" target="_blank"><img
+                  class="social-media" src="../assets/discord.svg" alt></a>
+            </figure>
+            <button class="gradient3 all-btn hvr-pulse">
+              <a href> Download CV
+                <i class="fa-solid fa-download" style="color: #878787;"></i>
               </a>
             </button>
-         
-      </div>
-    
-      </div>
-      <div class="center-column" data-aos="fade-up" data-aos-duration="3000">
-        <div>
-          <img id="img-apresentation" src="../img/foto3.svg" alt="">
+          </div>
+        </div>
+        <div class="center-column" data-aos="fade-up" data-aos-duration="3000">
+          <div>
+            <img id="img-apresentation" src="../img/foto3.svg" alt>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="sections">
-    <h1 class="gradient2 center-column" data-aos="fade-up" data-aos-anchor-placement="center-center">Sobre :</h1>
-    <div class="center-row">
-      <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-        <img id="img-about" src="../assets/section-about.svg" alt="">
-      </div>
-      <aside class="scrollable-div" data-aos="fade-up" data-aos-anchor-placement="center-center">
-        <p class="gradient1">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto fugiat temporibus veniam dolore animi eos
-          praesentium voluptatum sit debitis officiis reiciendis repellat, voluptatibus voluptate consectetur doloremque
-          odit, dolor odio excepturi!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni consequuntur quam nobis quidem, amet vero
-          sint inventore eaque provident rerum iusto iste dolor possimus, cum autem saepe blanditiis veniam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima similique aspernatur molestias fugit rerum,
-          sunt ut, eligendi ipsa accusantium dolorem, blanditiis qui! Cupiditate officia tenetur architecto quos.
-          Quisquam, dolor modi!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quo sed quas quod itaque dicta officia saepe.
-          Accusantium cumque consequatur sed soluta nemo minus ipsum culpa sapiente eaque maiores. Dolorem.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquid perspiciatis necessitatibus saepe,
-          numquam debitis nihil laboriosam consectetur repellat eligendi rem nemo vel asperiores in fugit illo ad optio
-          dignissimos?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quo sed quas quod itaque dicta officia saepe.
-          Accusantium cumque consequatur sed soluta nemo minus ipsum culpa sapiente eaque maiores. Dolorem.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquid perspiciatis necessitatibus saepe,
-          numquam debitis nihil laboriosam consectetur repellat eligendi rem nemo vel asperiores in fugit illo ad optio
-          dignissimos?
-        </p>
-      </aside>
-    </div>
-  </section>
- 
-
-  <section id="skills" class="sections">
-    <br><br>
-    <h1 class="gradient2 center-column" data-aos="fade-up" data-aos-anchor-placement="center-center">Soft - Skills :
-    </h1>
-    <div class="center-row" data-aos-anchor-placement="center-center">
-      <div class="center-column card-skill" data-aos="flip-left">
-        <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-          <img class="img-skill" src="../img/comprometimento.png" alt="">
-        </div>
-        <h3 class="gradient1">Comprometimento</h3>
-        <p class="gradient1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, itaque odio non saepe quos quas fuga vero
-          sapiente quasi deleniti! Saepe ipsam id in possimus libero repudiandae suscipit animi nisi.</p>
-      </div>
-
-      <div id="top-skill" class="center-column card-skill" data-aos="flip-left">
-        <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-          <img class="img-skill" src="../img/comunicacao.png" alt="">
-        </div>
-        <h3 class="gradient1">Comunicação Eficiente</h3>
-        <p class="gradient1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, itaque odio non saepe quos quas fuga vero
-          sapiente quasi deleniti! Saepe ipsam id in possimus libero repudiandae suscipit animi nisi.</p>
-      </div>
-
-      <div class="center-column card-skill" data-aos="flip-left">
-        <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-          <img class="img-skill" src="../img/qualidade.png" alt="">
-        </div>
-        <h3 class="gradient1">Qualidade</h3>
-        <p class="gradient1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, itaque odio non saepe quos quas fuga vero
-          sapiente quasi deleniti! Saepe ipsam id in possimus libero repudiandae suscipit animi nisi.</p>
-      </div>
-    </div>
-
-    <marquee direction="right">
-      <h3 class="gradient1"><b>&#60;&#47;&#62;</b>&nbsp;
-        <b>Colaboração</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Comunicação</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Inteligência Emocional</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Flexibilidade</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Organização e Planejamento</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Resiliência</b>&nbsp;&nbsp;&nbsp;
-
-        <b>&#60;&#47;&#62;</b>
-      </h3>
-    </marquee>
-    <br>
-
-    <marquee direction="left">
-      <h3 class="gradient1"><b>&#60;&#47;&#62;</b>&nbsp;
-        <b>Auto - Conhecimento</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Atenção aos Detalhes</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Criatividade</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Capacidade Analítica</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Persuasão</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
-        <b>Proatividade</b>&nbsp;&nbsp;&nbsp;
-        <b>&#60;&#47;&#62;</b>
-      </h3>
-    </marquee>
-
-    <div id="hard-skills">
-      <h1 class="gradient2 center-column" data-aos="fade-up" data-aos-duration="3000">
-        Hard - Skills :
-      </h1>
+    <section id="about" class="sections" data-aos="fade-right"
+      data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <h1 class="gradient3 center-column">Sobre </h1>
       <div class="center-row">
-        <div id="icons-hard-skills" data-aos="fade-down" data-aos-duration="3000">
-          <i class="devicon-php-plain  icons-hard "></i>
-          <i data-aos="zoom-out-down" class="devicon-wordpress-plain-wordmark icons-hard"></i>
-          <i class="devicon-javascript-plain icons-hard"></i>
-          <i class="devicon-html5-plain-wordmark  icons-hard"></i>
-          <i class="devicon-css3-plain-wordmark  icons-hard"></i>
-          <i class="devicon-sass-original  icons-hard"></i>
-          <i class="devicon-git-plain  icons-hard"></i>
-          <i class="devicon-github-original  icons-hard"></i>
-          <i class="devicon-canva-original icons-hard"></i>
-          <i class="devicon-figma-plain icons-hard"></i>
+        <div>
+          <img id="img-about" src="../assets/section-about.svg" alt>
+        </div>
+        <aside class="scrollable-div">
+          <div>
+            <p class="gradient3">
+              Olá!  Como vai? <br>
+              Primeiramente, agradeço demais por estar por aqui ! <br>
+              Agora, permita-me apresentar um pouco mais sobre mim: <br>
+               Sou o Leandro, <strong class="gradient3"><i>Aficionado</i></strong>
+              por tecnologias. <br> <br>
+              Atualmente estou mergulhado nos estudos, me aprofundando em PHP e
+              Js,
+              acabo de terminar a graduação do curso de Sistemas para Internet
+              pela Unicesumar
+              e estou no aguardo de minha colação que está prevista para
+              acontecer em janeiro de 2024. <br><br>
+              Além de um assíduo estudante, gosto de ler, sou curioso e estou
+              sempre
+              em busca de tentar entender como as coisas funcionam. Gosto de
+              apreciar bons filmes e séries, principalmente os que abrangem a
+              cultura geek, também curto uma
+              boa música, não só curtir, como também toco guitarra e violão e
+              uma palinha
+              no contrabaixo kkkk. <br> <br>
+
+              Estou ansioso demais para iniciar minha jornada no mundo
+              profissional dentro do universo do Front End,
+              me dedico para que minha rotina seja minuciosamente planejada,
+              assim eu consigo estabelecer metas
+              de estudo diárias e continuar avançando no aprendizado. <br><br>
+
+              Alguns de Meus pontos fortes incluem comprometimento, dinamismo,
+              colaboração, organização,
+              qualidade na execução de tarefas, facilidade na Comunicação,
+              proatividade e motivação para
+              enfrentar novos desafios. <br>
+              Estou determinado a me realocar no mercado de trabalho e
+              aplicar todo
+              o conhecimento que adquiri até agora. <br><br>
+              Minha paixão por estar na vanguarda das novas tecnologias e
+              contribuir
+              para soluções inovadoras me impulsionou nessa jornada, de fato,
+              ter a oportunidade
+              de trabalhar nos bastidores, desenvolvendo soluções que impactam
+              positivamente a vida
+              das pessoas é algo que me motiva diariamente. Acredito que a cada
+              dia que avançamos,
+              a tecnologia agiliza e facilita em muito a rotina e a maneira de
+              resolver problemas diários
+              de maneira cada vez mais eficiente! <br><br>
+
+              Estou comprometido com meu processo de aprendizagem e convido você
+              a me seguir e
+              acompanhar de perto toda a minha evolução nos estudos. <br>
+              Sinta-se à vontade para entrar em contato comigo ! <br> <br>
+
+              Atenciosamente <br>
+              <strong class="gradient3">Leandro Dukiévicz</strong>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" class="sections" data-aos="fade-up"
+      data-aos-duration="3000">
+      <h1 class="gradient3 center-column">Soft-Skills</h1>
+      <div id="cards-section-skill" class="center-row">
+        <div class="center-column card-skill">
+          <div><img class="img-skill" src="../img/comprometimento.png" alt></div>
+          <h3 class="gradient3">Comprometimento</h3> <br>
+          <p class="adjust-p gradient3">
+            Se comprometer vai além de palavras e se
+            evidência muito mais em ações,
+            sempre procuro aprender em cada etapa do processo. <br><br>
+            Me esforço em compreender profundamente os objetivos do projeto,
+            assim consigo colaborar de maneira proativa e executar as tarefas
+            com mais
+            precisão e eficiência.
+          </p>
+        </div>
+
+        <div class="center-column card-skill">
+          <div>
+            <br>
+            <img class="img-skill" src="../img/qualidade.png" alt>
+          </div>
+          <h3 class="gradient3">Qualidade</h3> <br>
+          <p class="adjust-p gradient3">
+            Ao enfrentar desafios e superar os obstáculos, me empenho em sempre
+            evoluir e avançar na qualidade do meu serviço. <br><br>
+            Procuro sempre fazer o possível para não apenas atender os
+            requisítos, mas superá-los,
+            antecipando as necessidades e me esforçando para que cada entrega
+            tenha mais excelência.
+          </p>
+        </div>
+
+        <div class="center-column card-skill">
+          <div>
+            <br>
+            <img class="img-skill" src="../img/comunicacao.png" alt>
+          </div>
+          <h3 class="gradient3">Comunicação Eficiente</h3>
+          <br>
+          <p class="adjust-p gradient3">
+            Acredito que a Comunicação eficaz seja o grande catalisador para o
+            sucesso do projeto,
+            permitindo uma Colaboração mais fluída com toda a equipe. <br><br>
+            Me dedico em ouvir atentamente para responder de maneira eficiente,
+            compreendendo
+            as nuances de cada situação. Assim explano as idéias de forma
+            acessível.
+          </p>
         </div>
       </div>
-    </div>
-    <br><br>
-   
-    <br><br>
-  </section>
+      <br>
 
-  <section id="projects" class="sections">
-    <h1 class="gradient2 center-column" data-aos="fade-up" data-aos-anchor-placement="center-center">Projetos :</h1>
+      <marquee class="marquee" direction="right">
+        <span class="gradient1"><b>&#60;&#47;&#62;</b>&nbsp;
+          <b>Colaboração</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Comunicação</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Inteligência Emocional</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Flexibilidade</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Organização & Planejamento</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Resiliência</b>&nbsp;&nbsp;&nbsp;
+          <b>&#60;&#47;&#62;</b>
+        </span>
+      </marquee>
+      <br>
+      <marquee direction="left">
+        <span class="gradient1"><b>&#60;&#47;&#62;</b>&nbsp;
+          <b>Auto - Conhecimento</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Atenção aos Detalhes</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Criatividade</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Consistente & Pragmático</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Persuasão</b>&nbsp;&nbsp;&nbsp;<strong>•</strong>&nbsp;&nbsp;&nbsp;
+          <b>Proatividade</b>&nbsp;&nbsp;&nbsp;
+          <b>&#60;&#47;&#62;</b>
+        </span>
+      </marquee>
 
-    <div class="center-row">
-      <div class="accordion center-column" data-aos="flip-right">
-        <h3 class="gradient1">Barbershop</h3> <br>
-        <img src="../assets/barber.svg" alt="" class="img-projects">
-        <div class="center-row">
-          <i class="devicon-html5-plain-wordmark colored stack"></i>
-          <i class="devicon-css3-plain-wordmark colored stack"></i>
+      <div id="hard-skills">
+        <h1 class="gradient3 center-column" data-aos="flip-left">
+          Hard-Skills
+        </h1>
+        <div class="center-row" data-aos="zoom-in">
+          <div id="container-icon" class="center-row">
+            <i class="devicon-php-plain colored icons-hard "></i>
+            <i class="devicon-wordpress-plain icons-hard"></i>
+            <i class="devicon-javascript-plain colored icons-hard"></i>
+            <i class="devicon-html5-plain-wordmark colored icons-hard"></i>
+            <i class="devicon-css3-plain-wordmark colored icons-hard"></i>
+            <i class="devicon-sass-original colored icons-hard"> </i>
+            <i class="devicon-git-plain colored icons-hard"></i>
+            <i class="devicon-github-original colored icons-hard"></i>
+            <i class="devicon-canva-original colored icons-hard"></i>
+            <i class="devicon-figma-plain colored icons-hard"></i>
+          </div>
         </div>
-        <details>
-          <summary>Confira mais detalhes :</summary>
-            <p >
+      </div>
+    </section>
+
+    <section id="projects" class="sections">
+      <h1 class="gradient3 center-column" data-aos="zoom-in-right">Projetos</h1>
+      <div class="center-row cards-projects ">
+        <div class="accordion center-column " data-aos="flip-left"
+          data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <h3 class="gradient3">Barbershop</h3> <br>
+          <img src="../assets/barber.svg" alt class="img-projects">
+          <div class="center-row">
+            <i class="devicon-html5-plain-wordmark colored  stack"></i>
+            <i class="devicon-css3-plain-wordmark colored  stack"></i>
+          </div>
+          <details class="gradient3">
+            <summary>Confira mais detalhes :</summary>
+            <p class="gradient3">
               Um Projeto simples, p/ aprender a semântica do html e as melhores
-              formas de estilização com css, desenvolvido para treinar boas práticas no css,
+              formas de estilização com css, desenvolvido para treinar boas
+              práticas no css,
               utilizando flex e grid, trabalhando com variáveis para reuso,
               e também um paralax na imagem principal como background do site.
               <br>
-              Utilizado também hovers para um início de dinamicidade nos botões de call to action. <br><br>
-              Este Projeto é o primeiro de 4 projetos de um curso intensivo em andamento
-              para adquirir conhecimento em javascript e os principais frameworks.
+              Utilizado também hovers para um início de dinamicidade nos botões
+              de call to action. <br><br>
+              Este Projeto é o primeiro de 4 projetos de um curso intensivo em
+              andamento
+              para adquirir conhecimento em javascript e os principais
+              frameworks.
             </p>
 
             <div class="center-row">
-              <a class="center-column" href="https://github.com/LeandroDukievicz/BarberShop/tree/main" target="_blank">
+              <a class="center-column"
+                href="https://github.com/LeandroDukievicz/BarberShop/tree/main"
+                target="_blank">
                 <i class="devicon-github-original  stack"></i>Repositório
               </a>
-              <a class="center-column" href="https://barberhop-dukievicz.vercel.app/" target="_blank">
+              <a class="center-column"
+                href="https://barberhop-dukievicz.vercel.app/" target="_blank">
                 <i class="fa-solid fa-link stack"></i>Acesse
               </a>
             </div>
-
-             <br><br>
+            <br><br>
             <div class="center-column">
               <small>Se Desejar, confira este outro projeto:</small>
               <div class="space-row">
-                <a class="center-column" href="https://css-html-agencia.vercel.app/" target="_blank">
+                <a class="center-column"
+                  href="https://css-html-agencia.vercel.app/" target="_blank">
                   <i class="fa-solid fa-link stack"></i>Agência X
                 </a>
               </div>
             </div>
-        </details>
-      </div>
-      <div class="accordion center-column" data-aos="flip-left">
-        <h3 class="gradient1">Landing Page Agency</h3> <br>
-        <img src="../assets/agency.svg" alt="" class="img-projects">
-        <div class="center-row">
-          <i class="devicon-sass-original colored stack"></i>
-          <i class="devicon-html5-plain-wordmark colored stack"></i>
+          </details>
         </div>
-        <details>
-          <summary>Confira mais detalhes :</summary>
-            <p>
+        <div class="accordion center-column " data-aos="flip-right"
+          data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <h3 class="gradient3">Landing Page Agency</h3> <br>
+          <img src="../assets/agency.svg" alt class="img-projects">
+          <div class="center-row">
+            <i class="devicon-sass-original colored stack"></i>
+            <i class="devicon-html5-plain-wordmark colored stack"></i>
+          </div>
+          <details class="gradient3">
+            <summary>Confira mais detalhes :</summary>
+            <p class="gradient3">
               Uma landing page para a prática do framework SASS,
-               consiste em uma estrutura muito usada, com cards e flex para 
-              que os mesmos tenham um posicionamento correto, hovers e botões outline para call to actions. <br><br>
-              Foi um dos projetos que desenvolvi para iniciar o aprendizado deste framework, além de aplicar 
-              algumas tags e técnicas novas de css que eu ainda havia colocado em prática até então.
+              consiste em uma estrutura muito usada, com cards e flex para
+              que os mesmos tenham um posicionamento correto, hovers e botões
+              outline para call to actions. <br><br>
+              Foi um dos projetos que desenvolvi para iniciar o aprendizado
+              deste framework, além de aplicar
+              algumas tags e técnicas novas de css que eu ainda havia colocado
+              em prática até então.
             </p>
-            <div class="center-row">
-              <a class="center-column" href="https://github.com/LeandroDukievicz/sass-project-agency" target="_blank">
+            <div class="center-row card-detail ">
+              <a class="center-column"
+                href="https://github.com/LeandroDukievicz/sass-project-agency"
+                target="_blank">
                 <i class="devicon-github-original  stack"></i>repositório
               </a>
-              <a class="center-column" href="https://sass-project-agency.vercel.app/" target="_blank">
+              <a class="center-column"
+                href="https://sass-project-agency.vercel.app/" target="_blank">
                 <i class="fa-solid fa-link stack"></i>acesse
               </a>
             </div>
-        </details>
-      </div>
-
-      <div class="accordion center-column" data-aos="flip-right">
-        <h3 class="gradient1">Electrum</h3> <br>
-        <img src="../assets/electrum.svg" alt="" class="img-projects">
-        <div class="center-row">
-          <i class="devicon-sass-original colored stack"></i>
-          <i class="devicon-html5-plain-wordmark colored stack"></i>
+          </details>
         </div>
-        <details>
-          <summary>Confira mais detalhes :</summary>
-          <p>
-            Construi o front End de um e-commerce chamado Electrum,
-            continuação do aprendizado do Framework SASS,
-            focado no design patterns usados no dia-a-dia, para
-            simular o máximo possível um projeto front end real, está dividido em sua estilização em módulos
-            para facilitar manutenções futuras.
-            <br><br>
-            Módulo 1-base: nesse módulo fica todas as tags essencias que não possuem classes ou id's,
-            nesse mesmo módulo também é adicionado o reset e variáveis
-            Já no módulo layouts como o nome mesmo indica fica toda a estilização do site,
-            contendo todas as sessões do site separadas, todas as classes e id's. <br><br>
-            Assim , facilitando uma possível manutenção ou atualização do código,
-            Já no terceiro e último módulo está o Modules,
-            todos os componentes que são reutilizados ao decorrer do projeto
-            e que aparecem ou se repetem, acabam ficando nesta pasta, assim facilita o reuso do mesmo.
-          </p>
-          <div class="center-row">
-            <a class="center-column"
-              href="https://github.com/LeandroDukievicz/sass-project-electrum/blob/main/README.md" target="_blank">
-              <i class="devicon-github-original  stack"></i>Repositorio
-            </a>
-            <a class="center-column" href="https://projectelectrumleandrod.vercel.app/" target="_blank">
-              <i class="fa-solid fa-link stack"></i>Acesse
-            </a>
-          </div> <br><br>
 
-          <div class="center-column">
-            <small> Aqui tem um outro projeto da hora em SASS, Confira : </small>
-            <div class="space-row">
-              <a class="center-column" href="https://galery-sass.vercel.app/" target="_blank">
-                <i class="fa-solid fa-link stack"></i>galeria Fotos
-              </a> <br>
+        <div class="accordion center-column" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+          <h3 class="gradient3">Electrum</h3> <br>
+          <img src="../assets/electrum.svg" alt class="img-projects">
+          <div class="center-row">
+            <i class="devicon-sass-original colored stack"></i>
+            <i class="devicon-html5-plain-wordmark colored stack"></i>
+          </div>
+          <details>
+            <summary class="gradient3">Confira mais detalhes :</summary>
+            <p class="gradient3">
+              Construi o front End de um e-commerce chamado Electrum,
+              continuação do aprendizado do Framework SASS,
+              focado no design patterns usados no dia-a-dia, para
+              simular o máximo possível um projeto front end real, está dividido
+              em sua estilização em módulos
+              para facilitar manutenções futuras.
+              <br><br>
+              Módulo 1-base: nesse módulo fica todas as tags essencias que não
+              possuem classes ou id's,
+              nesse mesmo módulo também é adicionado o reset e variáveis
+              Já no módulo layouts como o nome mesmo indica fica toda a
+              estilização do site,
+              contendo todas as sessões do site separadas, todas as classes e id's.
+              <br><br>
+              Assim , facilitando uma possível manutenção ou atualização do
+              código,
+              Já no terceiro e último módulo está o Modules,
+              todos os componentes que são reutilizados ao decorrer do projeto
+              e que aparecem ou se repetem, acabam ficando nesta pasta, assim
+              facilita o reuso do mesmo.
+            </p>
+            <div class="center-row">
+              <a class="center-column gradient3"
+                href="https://github.com/LeandroDukievicz/sass-project-electrum/blob/main/README.md"
+                target="_blank">
+                <i class="devicon-github-original  stack"></i>Repositorio
+              </a>
+              <a class="center-column gradient3"
+                href="https://projectelectrumleandrod.vercel.app/"
+                target="_blank">
+                <i class="fa-solid fa-link stack"></i>Acesse
+              </a>
+            </div> <br><br>
+
+            <div class="center-column">
+              <small> Aqui tem um outro projeto da hora em SASS, Confira :
+              </small>
+              <div class="space-row">
+                <a class="center-column gradient3" href="https://galery-sass.vercel.app/"
+                  target="_blank">
+                  <i class="fa-solid fa-link stack"></i>galeria Fotos
+                </a> <br>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+      <div class="center-row cards-projects">
+        <div class="accordion center-column " data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+          <h3 class="gradient3">Landing Page - iMovi</h3> <br>
+          <img src="../assets/imovi.svg" alt class="img-projects">
+          <div class="center-row">
+            <i class="devicon-bootstrap-plain-wordmark colored stack"></i>
+            <i class="devicon-html5-plain-wordmark colored stack"></i>
+            <i class="devicon-css3-plain-wordmark colored stack"></i>
+          </div>
+          <details>
+            <summary>Confira mais detalhes :</summary>
+            <p class="gradient3">
+              Firmei os conceitos iniciais do framework Bootstrap <br>
+              Nesta Landing page, a proposta era usar as principais técnicas que
+              o framework oferece,
+              como sliders, cards, icons, svgs. <br><br>
+              Neste Projeto utilizei o framework via cdn e não de forma local, o
+              curso ao qual desenvolvi este projeto,
+              também abordei e realizei outros projetos.
+            </p>
+            <div class="center-row ">
+              <a class="center-column gradient3"
+                href="https://github.com/LeandroDukievicz/bootstrap-imovi/tree/main"
+                target="_blank">
+                <i class="devicon-github-original colored  stack"></i>repositório
+              </a>
+              <a class="center-column gradient3"
+                href="https://bootstrap-imovi.vercel.app/#" target="_blank">
+                <i class="fa-solid fa-link stack"></i>Acesse
+              </a>
+
+            </div>
+            <br><br>
+            <div class="center-column">
+              <small> + 2 Projetos que fiz usando Bootstrap : </small>
+              <div class="space-row">
+                <a class="center-column gradient3"
+                  href="https://bootstrap5-exact-time.vercel.app/"
+                  target="_blank">
+                  <i class="fa-solid fa-link stack"></i>exact time
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="center-column gradient3" href="https://artesurbanas.vercel.app/"
+                  target="_blank">
+                  <i class="fa-solid fa-link stack"></i>Urban Arts
+                </a>
+              </div>
             </div>
           </div>
-        </details>
-      </div>
-    </div>
-
-    <div class="center-row">
-      <div class="accordion center-column" data-aos="flip-left">
-        <h3 class="gradient1">Landing Page - iMovi</h3> <br>
-        <img src="../assets/imovi.svg" alt="" class="img-projects">
-        <div class="center-row">
-          <i class="devicon-bootstrap-plain-wordmark colored stack"></i>
-          <i class="devicon-html5-plain-wordmark colored stack"></i>
-          <i class="devicon-css3-plain-wordmark colored stack"></i>
-        </div>
-        <details>
-          <summary>Confira mais detalhes :</summary>
-          <p>
-            Firmei os conceitos iniciais do framework Bootstrap <br>
-            Nesta Landing page, a proposta era usar as principais técnicas que o framework oferece,
-            como sliders, cards, icons, svgs. <br><br>
-            Neste Projeto utilizei o framework via cdn e não de forma local, o curso ao qual desenvolvi este projeto,
-            também abordei e realizei outros projetos.
-          </p>
-          <div class="center-row">
-            <a class="center-column" href="https://github.com/LeandroDukievicz/bootstrap-imovi/tree/main"
-              target="_blank">
-              <i class="devicon-github-original  stack"></i>repositório
-            </a>
-            <a class="center-column" href="https://bootstrap-imovi.vercel.app/#" target="_blank">
-              <i class="fa-solid fa-link stack"></i>Acesse
-            </a>
-
-          </div>
-          <br><br>
-
-          <div class="center-column">
-
-            <small> + 2 Projetos que fiz usando Bootstrap :  </small>
-            <div class="space-row">
-              <a class="center-column" href="https://bootstrap5-exact-time.vercel.app/" target="_blank">
-                <i class="fa-solid fa-link stack"></i>exact time
-              </a>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a class="center-column" href="https://artesurbanas.vercel.app/" target="_blank">
-                <i class="fa-solid fa-link stack"></i>Urban Arts
-              </a>
+          <div class="accordion center-column" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <h3 class="gradient3">Desafio Nacional</h3> <br>
+            <img src="../assets/desafio.svg" alt class="img-projects">
+            <div class="center-row">
+              <i class="devicon-php-plain colored stack"></i>
+              <i class="devicon-html5-plain-wordmark colored stack"></i>
+              <i class="devicon-css3-plain-wordmark colored stack"></i>
             </div>
+            <details>
+              <summary>Confira mais detalhes :</summary>
+              <p class="gradient3">
+                Projeto desenvolvido para concorrer ao Desafio Nacional
+                promovido pela Unicesumar,
+                ao qual eu fiquei entre os 10 melhores votados no Brasil,
+                o desafio em sí era uma forma de ajudar alguém da comunidade com
+                um site p/ promover
+                e aumentar as vendas, o projeto foi um site de marmitaria. <br><br>
+                O que acabou facilitando o acesso ao cardápio, disponibilizando
+                um contato direto
+                para fazer pedidos via whatsApp e links paras redes sociais,
+                Neste projeto trabalhei com back-end em php e seccionei em
+                partes para facilitar a manutenção.
+                Para selecionar e navegar entre o cardápio do site eu trabalhei
+                com array dinâmico,
+                para estilizar, CSS3 e fiz o máximo que pude na época para
+                colocar todo o html em tags semânticas. <br><br>
+                Por ser o primeiro contato com a linguagem Php, fiquei
+                satisfeito em ter ficado ali nos 10 melhores projetos a nivel
+                nacional, com certeza seria uma honra ter a conquista do
+                primeiro lugar, mas sei que ainda preciso
+                avançar e melhorar em muitos aspectos.
+              </p>
+              <div class="center-row">
+                <a class="center-column gradient3"
+                  href="https://github.com/LeandroDukievicz/back-end-1"
+                  target="_blank">
+                  <i class="devicon-github-original  stack"></i>Repositório
+                </a>
+                <a class="center-column gradient3"
+                  href="https://www.youtube.com/watch?v=d-h6DjWuZTI"
+                  target="_blank">
+                  <i class="fa-brands fa-square-youtube stack"></i>review
+                </a>
+              </div>
+            </details>
           </div>
-      </div>
 
-      <div class="accordion center-column" data-aos="flip-right">
-        <h3 class="gradient1">Desafio Nacional</h3> <br>
-        <img src="../assets/desafio.svg" alt="" class="img-projects">
+          <div class="accordion center-column" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <h3 class="gradient3">Bootcamp NLW </h3> <br>
+            <img src="../assets/nlw.svg" alt class="img-projects">
+            <div class="center-row">
+              <i class="devicon-javascript-plain colored stack"></i>
+              <i class="devicon-html5-plain-wordmark colored stack"></i>
+              <i class="devicon-css3-plain-wordmark colored stack"></i>
+            </div>
+            <details>
+              <summary>Confira mais detalhes :</summary>
+              <p class="gradient3">
+                Último Bootcamp que participei, promovido pela Rocketseat,
+                consiste em uma aplicação
+                para marcarmos e acompanharmos hábitos diários, uma agenda para
+                acompanhar a rotina do dia a dia.
+                <br><br>
+                Conceitos iniciais de javascript, você adiciona por meio de um
+                botão um novo dia da semana, e informa nele
+                se conseguiu cumprir com aqueles hábitos que estipulou
+                acompanhar, funções básicas em js e trabalhamos com o
+                localStorage, para
+                armazenar localmente o que salvamos nos dias da agenda.
+                <br>
+              </p>
+
+              <div class="center-row">
+                <a class="center-column gradient3"
+                  href="https://github.com/LeandroDukievicz/PROJECT-NLW-TRACK-EXPLORER-/blob/main/scripts/script.js"
+                  target="_blank">
+                  <i class="devicon-github-original  stack"></i>repositório
+                </a>
+                <a class="center-column gradient3" href="https://nlwhabbits.vercel.app/"
+                  target="_blank">
+                  <i class="fa-solid fa-link stack"></i>acesse
+                </a>
+              </div>
+            </details>
+          </div>
+        </div>
+
         <div class="center-row">
-          <i class="devicon-php-plain colored stack"></i>
-          <i class="devicon-html5-plain-wordmark colored stack"></i>
-          <i class="devicon-css3-plain-wordmark colored stack"></i>
-        </div>
-        <details>
-          <summary>Confira mais detalhes :</summary>
-          <p>
-            Projeto desenvolvido para concorrer ao Desafio Nacional promovido pela Unicesumar,
-            ao qual eu fiquei entre os 10 melhores votados no Brasil,
-            o desafio em sí era uma forma de ajudar alguém da comunidade com um site p/ promover
-            e aumentar as vendas, o projeto foi um site de marmitaria. <br><br>
-            O que acabou facilitando o acesso ao cardápio, disponibilizando um contato direto
-            para fazer pedidos via whatsApp e links paras redes sociais,
-            Neste projeto trabalhei com back-end em php e seccionei em partes para facilitar a manutenção.
-            Para selecionar e navegar entre o cardápio do site eu trabalhei com array dinâmico,
-            para estilizar, CSS3 e fiz o máximo que pude na época para colocar todo o html em tags semânticas. <br><br>
-            Por ser o primeiro contato com a linguagem Php, fiquei satisfeito em ter ficado ali nos 10 melhores projetos a nivel
-            nacional, com certeza seria uma honra ter a conquista do primeiro lugar, mas sei que ainda preciso 
-            avançar e melhorar em muitos aspectos.
-          </p>
-          <div class="center-row">
-            <a class="center-column" href="https://github.com/LeandroDukievicz/back-end-1" target="_blank">
-              <i class="devicon-github-original  stack"></i>Repositório
-            </a>
-            <a class="center-column" href="https://www.youtube.com/watch?v=d-h6DjWuZTI" target="_blank">
-              <i class="fa-brands fa-square-youtube stack"></i>review
-            </a>
+          <div class=" center-column">
+            <marquee direction="left">
+              <div class="center-row">
+                <img src="../assets/load.gif" alt class="img-new-projects">
+                <h3 class="gradient3">Em Breve - Novos Projetos !!! </h3>
+                <img src="../assets/load.gif" alt class="img-new-projects">
+              </div>
+            </marquee>
           </div>
-        </details>
-      </div>
-
-      <div class="accordion center-column" data-aos="flip-right">
-        <h3 class="gradient1">Bootcamp NLW </h3> <br>
-        <img src="../assets/nlw.svg" alt="" class="img-projects">
-        <div class="center-row">
-          <i class="devicon-javascript-plain stack"></i>
-          <i class="devicon-html5-plain-wordmark colored stack"></i>
-          <i class="devicon-css3-plain-wordmark colored stack"></i>
         </div>
-        <details>
-          <summary>Confira mais detalhes :</summary>
-          <p>
-            Último Bootcamp que participei, promovido pela Rocketseat, consiste em uma aplicação
-            para marcarmos e acompanharmos hábitos diários, uma agenda para acompanhar a rotina do dia a dia.
-            <br><br>
-            Conceitos iniciais de javascript, você adiciona por meio de um botão um novo dia da semana, e informa nele 
-            se conseguiu cumprir com aqueles hábitos que estipulou acompanhar, funções básicas em js e trabalhamos com o localStorage, para 
-            armazenar localmente o que salvamos nos dias da agenda.
-            <br>
-          </p>
+    </section>
 
-          <div class="center-row">
-            <a class="center-column" href="https://github.com/LeandroDukievicz/PROJECT-NLW-TRACK-EXPLORER-/blob/main/scripts/script.js" target="_blank">
-              <i class="devicon-github-original  stack"></i>repositório
-            </a>
-            <a class="center-column" href="https://nlwhabbits.vercel.app/" target="_blank">
-              <i class="fa-solid fa-link stack"></i>acesse
-            </a>
-          </div>
-        </details>
-      </div>
-    </div>
-    <br>
-    <div class="center-row">
-      <div class=" center-column">
-        <marquee direction="left">
-          <div class="center-row">
-            <img src="../assets/load.gif" alt="" class="img-new-projects">
-            <h3 class="gradient1">Em Breve - Novos Projetos !!! </h3>
-            <img src="../assets/load.gif" alt="" class="img-new-projects">
-          </div>
-        </marquee>
-        <br>
-      </div>
-    </div>
-    <br>
-    
-    <br>
-  </section>
+      <section id="contact-me" class="sections ">
 
-  <section id="contact-me" class="sections ">
-    <h1 class="gradient2 center-column" data-aos="fade-up" data-aos-anchor-placement="center-center">Contato :</h1>
-    <div class="container-contact">
-      <div id="div-contact" class="center-row">
-        <div class="center-column" data-aos="fade-right" data-aos-anchor="#example-anchor"    data-aos-offset="500" data-aos-duration="1000">
-          <img class="img-contact" src="../assets/tt-contact-us.svg" alt="">
+        <h1 class="gradient3 center-column" data-aos="fade-right">Contato </h1>
+        <div class="container-contact">
+          <div id="div-contact" class="center-row">
+            <div id="svg-contact" class="center-column" data-aos="fade-right"
+              data-aos-anchor="#example-anchor" data-aos-offset="500"
+              data-aos-duration="1000">
+              <img class="img-contact" src="../assets/tt-contact-us.svg" alt>
+            </div>
+            <form action method="post" data-aos="fade-left"
+              data-aos-anchor="#example-anchor" data-aos-offset="500"
+              data-aos-duration="1000">
+              <span class="gradient1"><i class="fa-regular fa-user gradient1"></i>
+                Nome</span>
+              <input id="nick-name" type="text" name="name"
+                placeholder="Insira nome e sobrenome" aria-required="true"
+                required><br>
+              <span class="gradient1"><i
+                  class="fa-regular fa-envelope gradient1"></i> E-mail</span>
+              <input id="e-mail" type="email" name="email"
+                placeholder="Seu melhor E-mail" aria-required="true" required>
+              <br>
+              <span class="gradient1"><i
+                  class="fa-regular fa-comments gradient1"></i> Assunto: </span>
+              <textarea name="subject" id="subject" cols="40" rows="08" required
+                aria-required="true"></textarea>
+              <button id="submit" class="hvr-bob" type="submit">Enviar</button>
+            </form>
+          </div>
         </div>
-        <form class="center-column" action="" method="post" data-aos="fade-left" data-aos-anchor="#example-anchor"    data-aos-offset="500" data-aos-duration="1000">
-            <input id="nick-name" " type="text" name="name"  placeholder="Informe o seu Nome" aria-required="true" required>
-            <input id="e-mail"  type="email" name="email"  placeholder="Seu Melhor E-mail" aria-required="true" required>
-            <p class="gradient1">Assunto: </p>
-            <textarea name="subject" id="subject" cols="40" rows="08" required aria-required="true"></textarea> 
-            <button id="submit" class="hvr-bob" type="submit" >Enviar</button>
-        </form>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section id="whats" >
-    <a href="https://wa.me/5544991293234?text=Ol%C3%A1%2C+tudo+bem+%3F" target="_blank"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-      <img id="img-zap" src="../img/Contato.png" alt="">
-    </a>  
-  </section>
+      <section id="whats">
+        <a href="https://wa.me/5544991293234?text=Ol%C3%A1%2C+tudo+bem+%3F"
+          target="_blank" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+          <img id="img-zap" src="../img/Contato.png" alt>
+        </a>
+      </section>
 
-
-
-
-</body>
-
-<footer class="section center-column">
-  <section id="container-footer" class="center-row">
-    <div id="footer-1" class="center-column spacing-footer">
-      <a class="spacing-footer gradient1 hvr-bob" href="../docs/light.html">Home</a>
-      <a class="spacing-footer gradient1 hvr-bob" href="#about">Sobre</a>
-      <a class="spacing-footer gradient1 hvr-bob" href="#skills">skills</a>
-    </div>
-
-    <div id="footer-2" class="center-column spacing-footer">
-      <a class="spacing-footer gradient1 hvr-bob" href="#projects">projetos</a>
-      <a class="spacing-footer gradient1 hvr-bob" href="blog.html">blog</a>
-      <a class="spacing-footer gradient1 hvr-bob" href="#contact-me">contato</a>
-    </div>
-</section>
-
-  <h4 class="gradient1">
-    Todos os direitos reservados @ Desenvolvido por Leandro Dukievicz 
-  </h4>
-  <h5 class="center-row gradient1">2023 • Maringá • Paraná </h5>
-
-</footer>
-
-
-<script src="../js/script.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+      <script src="../js/script.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+    AOS.init();
   </script>
 
-<script type="text/javascript" src="../js/vanilla-tilt.js"></script>
-<script> VanillaTilt.init(document.querySelectorAll("#img-apresentation,#img-about,.card-skill,.icons-hard,img"), {
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
 
-    max: 10,
-    speed: 100,
-    glare: true,
-    "max-glare": 1,
-  });
-</script>
+      <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+      <script> VanillaTilt.init(document.querySelectorAll("#img-apresentation,#img-about,.card-skill,.icons-hard,img"), {
+            max: 10,
+            speed: 100,
+            glare: true,
+            "max-glare": 1,
+          });
+      </script>
+    </body>
 
+    <footer class="section center-column">
+      <section id="container-footer" class="center-row">
+        <div id="footer-1" class="center-column spacing-footer">
+          <a class="spacing-footer gradient3" href="#" data-aos="fade-right">Home</a>
+          <a class="spacing-footer gradient3" href="#about" data-aos="fade-right">Sobre</a>
+          <a class="spacing-footer gradient3" href="#skills" data-aos="fade-right">skills</a>
+        </div>
 
+        <div id="footer-2" class="center-column spacing-footer">
+          <a class="spacing-footer gradient3" href="#projects" data-aos="fade-left">projetos</a>
+          <a class="spacing-footer gradient3" href="blog.html" data-aos="fade-left">blog</a>
+          <a class="spacing-footer gradient3" href="#contact-me" data-aos="fade-left">contato</a>
+        </div>
+      </section>
 
-</html>
+      <h4 class="gradient3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+      data-aos-delay="300" data-aos-offset="0">
+        Todos os direitos reservados @ Desenvolvido por Leandro Dukievicz
+      </h4>
+      <h5 class="center-row gradient3" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"> 
+        2023 • Maringá • Paraná 
+      </h5>
+    </footer>
+  </html>

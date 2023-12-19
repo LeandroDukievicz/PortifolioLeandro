@@ -3,26 +3,26 @@
     height: auto;
     display: flex;
     justify-content: end;
-  
 }
 
 #img-zap{
     width: 10vw;
+    filter: saturate(5%);
     margin:20px;
 }
 #img-zap:hover{
     transition: 1s;
-    filter:drop-shadow(4px 4px 4px rgb(26, 255, 0)); 
+    filter: saturate(75%);
 }
-
-
 footer{
     width: 90vw;
     height: auto;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
 }
+
+
 
 #container-footer{
     width: 90vw;

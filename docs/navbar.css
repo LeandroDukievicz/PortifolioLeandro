@@ -1,51 +1,50 @@
 
   #toggle-menu{
     font-size: 2rem;
-    color:#00d0ff;
+    color:#009FFF;
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
   }
+  
   .container {
-    width: 60vw;
-    margin: 0 auto;
+    width: 65vw;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 10px 10px 10px rgba(92, 92, 92, 0.5);
-    border: 1px outset #f4f4f4;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border: 1px outset #c8c8c8;
     border-radius: 15px;
     padding: 10px;
-    background:
-    radial-gradient(rgb(233, 233, 233) 15%, transparent 16%) 0 0,
-    radial-gradient(rgb(213, 213, 213) 15%, transparent 16%) 8px 8px,
-    radial-gradient(rgba(183, 183, 183, 0.1) 15%, transparent 20%) 0 1px,
-    radial-gradient(rgba(218, 218, 218, 0.1) 15%, transparent 20%) 8px 9px;
-    background-color:#ffffff;
-    background-size:16px 16px;
+   background: transparent; 
   }
 
+  
   a {
-    color: rgb(66, 66, 66);
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
   a:hover{
-    transition: 1.5s;
+    transition: 2.5s;
     cursor: pointer;
-    background-image: linear-gradient(to top, rgb(0, 114, 82), rgb(0, 88, 252));
+    background-image: linear-gradient(to top, rgb(0, 255, 183), rgb(67, 0, 252));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    letter-spacing: .1rem;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
   }
   
   .material-symbols-outlined{
     color: #009FFF;
   }
 
+  
   .nav {
     background: -webkit-linear-gradient(to right, #222222, #3a3a3a);
-    min-height: 60px;
+    
+   
     padding: 10px;
+   
   }
   
   .logo {
@@ -68,6 +67,9 @@
   /*flex box*/
   .menu ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
   
   .menu ul li {

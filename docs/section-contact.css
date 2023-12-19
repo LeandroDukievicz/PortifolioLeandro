@@ -1,44 +1,46 @@
-
-
+#contact-me{ 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   justify-items: center;
+   margin: 0auto;
+   padding:30px;
+   
+}
 .container-contact{
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
 }
-
 .img-contact{
-    width: 45vw;
+    width: 40vw;
+    margin:40px;
     height: auto;
-    margin: 20px;
-    padding: 20px;
-   
 }
-
-
 form{
     width: 40vw;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+    justify-content: space-between;
+    justify-items: end;
+   
 }
-
 input{
-    width:80%;
+    width:40vw;
     height: 40px;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 15px;
     border: none;
-    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    border-radius: 15px;
+    background: linear-gradient(to right, #dcdcdc, #42d0f7);
 }
 textarea{
-    width: 80%;
+    width: 40vw;
     border-radius: 15px;
-    border: none;
     padding: 10px;
-    background: linear-gradient(to bottom, #ffffff, #eaeaea);
+    background: linear-gradient(to right, #d3d3d3, #a5e4f4);
+    border: none;
 }
 

@@ -1,13 +1,13 @@
-@import url(reset.css);
+
+@import url(app.css);
 @import url(navbar.css);
 @import url(apresentation.css);
+@import url(main.css);
+@import url(buttons.css);
 @import url(section-about.css);
 @import url(section-skills.css);
 @import url(section-projects.css);
-@import url(section-blog.css);
 @import url(section-contact.css);
 @import url(section-footer.css);
-@import url(buttons.css);
 @import url(mediaquery.css);
 @import url(utilities.css);
-
