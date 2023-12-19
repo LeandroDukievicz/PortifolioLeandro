@@ -30,6 +30,7 @@
   #toggle-menu {
     margin-top: 6px;
     color: #00eaff;
+    margin-right: 20px;
   }
   .menu {
     margin: 0 auto;
@@ -247,6 +248,11 @@
     flex-direction: column;
     align-items: center;
     margin: 0auto;
+  }
+  #toggle-menu {
+    margin-top: 6px;
+    color: #00eaff;
+    margin-right: 70px;
   }
   #section-header{
     width: 100vw;
@@ -474,7 +480,7 @@
   }
 }
 
-@media screen and (min-width: 465px) and (max-width: 550px) {
+@media screen and (min-width: 466px) and (max-width: 550px) {
 
   .nav {
     width: 100vw;
