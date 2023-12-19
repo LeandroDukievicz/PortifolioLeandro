@@ -9,5 +9,5 @@
 @import url(section-projects.css);
 @import url(section-contact.css);
 @import url(section-footer.css);
-@import url(../css/med);
+@import url(../css/mediaquery.css);
 @import url(utilities.css);
