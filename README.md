@@ -1,26 +1,41 @@
-# Portifólio Pessoal 
+# Seja bem Vindo(a) ao meu Portifólio pessoal !!
+
+### Estou animado para compartilhar este projeto, que representa o início da minha jornada no desenvolvimento web. Planejo continuar aprimorando e implementando novas tecnologias à medida que avanço nos meus estudos.
+
+### **Tecnologias Utilizadas : **
+
+#### Neste projeto, utilizei algumas bibliotecas interessantes para adicionar dinamismo ao site:
+
+
+
+#### AOS.js: Uma biblioteca que proporciona animações suaves durante o scroll, tornando a experiência do usuário mais agradável. 
 
 #
 
-####  Este é meu primeiro portifólio pessoal, pretendo ir aperfeiçoando e implementando em novas tecnologias conforme eu for avançando nos estudos !
+#### Tilt.js: Adicionei uma camada interativa às seções usando Tilt.js, proporcionando um efeito tridimensional sutil.
 
 #
 
-#### Utilizei neste projeto a lib AOS js, tilt js e a lib hover css para criar os efeitos do site, foi um projeto que criei do zero, de acordo com um mockup que desenvolvi, o intuito era criar algo diferente dos modelos tradicionais, e por fim para que eu colocasse em prática o aprendizado que já tenho adquirido !
-
-
-#
-
-#### Eu cuidei de cada mínimo detalhe ao executar este projeto, queria com certeza implementar muitas outras funcionalidades, porém consegui executar boa parte do que eu tinha em mente, somente dominando as tecnologias que já domino suficientemente, os ícones do projeto em sí, as fotos, boa parte deles eu melhorei o que consegui ou adaptei pra chegar num resultado que me agradasse mais, utilizando o figma, tentei utilizar boa parte das imagens em svg pra deixar o site mais leve, também me dediquei em trabalhar com uma semântica legal no html, tanto que nas pesquisas do google, quando se digita o meu nome, é a terceira opção que aparece, fica apenas atrás do linkedin e do github, ( não sei exatamente até onde isso é relevante, mas acredito que de certa forma ajude e muito a me localizar), tentei neste portifólio colocar o máximo de conhecimento adquirido, permanecerei avançando e melhorando a medida que meu conhecimento for evoluindo !!
+#### Hover.css: Esta biblioteca foi empregada para criar efeitos visuais interessantes ao passar o mouse sobre certos elementos.
 
 #
 
-### Pode acessar o meu portifólio pessoal [AQUI](https://leandroduk.vercel.app/index.html);
+## **_Desenvolvimento do Projeto :_**
+#### O portfólio foi concebido do zero, seguindo um mockup que eu mesmo desenvolvi. Meu objetivo era criar algo fora dos padrões tradicionais, explorando minha criatividade e aplicando os conhecimentos adquiridos.
+
+#### Dediquei atenção meticulosa a cada detalhe durante a execução do projeto. Embora tenha desejado implementar ainda mais funcionalidades, consegui realizar boa parte do que planejava, utilizando as tecnologias que já domino. Os ícones e as imagens foram cuidadosamente selecionados, aprimorados ou adaptados para atender ao resultado desejado.
+
+#### **Foco em Detalhes :**
+#### Trabalhei com afinco na melhoria da estética e desempenho do site. Muitas das imagens foram convertidas para SVG para otimizar o peso da página, contribuindo para uma experiência de carregamento mais rápida. Além disso, dediquei-me a manter uma semântica clara no HTML, o que, curiosamente, resultou em uma posição destacada nos resultados de pesquisa do Google para o meu nome.
+
+#### Ao pesquisar no Google, meu portfólio é a terceira opção que aparece, ficando atrás apenas do LinkedIn e GitHub. Embora a relevância disso possa ser discutida, acredito que isso possa facilitar a localização e identificação do meu trabalho por parte de interessados e empregadores.
 
 #
 
+#### *Continuação e Aprendizado Contínuo*
 
+#### Este portfólio reflete o máximo de conhecimento que adquiri até agora. Estou comprometido em continuar avançando e aprimorando o projeto à medida que meu conhecimento evolui. Sinta-se à vontade para explorar e entre em contato para feedback ou oportunidades de colaboração. Estou ansioso para o que o futuro reserva nesta jornada de desenvolvimento web!
 
-
+### Você pode conferir o Portifólio clicando [Aqui]();
 
 
