@@ -36,6 +36,6 @@
 
 #### Este portfólio reflete o máximo de conhecimento que adquiri até agora. Estou comprometido em continuar avançando e aprimorando o projeto à medida que meu conhecimento evolui. Sinta-se à vontade para explorar e entre em contato para feedback ou oportunidades de colaboração. Estou ansioso para o que o futuro reserva nesta jornada de desenvolvimento web!
 
-### Você pode conferir o Portifólio clicando [Aqui]();
+### Você pode conferir o Portifólio clicando [Aqui](https://leandroduk.vercel.app/);
 
 
