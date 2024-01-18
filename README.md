@@ -11,8 +11,7 @@
 
 #
 
-#### Eu cuidei de cada mínimo detalhe ao executar este projeto, queria com certeza implementar muitas outras funcionalidades, porém consegui executar boa parte do que eu tinha em mente, somente dominando as tecnologias que já domino suficientemente, os ícones do projeto em sí, as fotos, boa parte deles eu melhorei o que consegui ou adaptei pra chegar num resultado que me agradasse mais, utilizando o figma, tentei utilizar boa parte das imagens em svg pra deixar o site mais leve, também me dediquei em trabalhar com uma semântica legal no html 
-
+#### Eu cuidei de cada mínimo detalhe ao executar este projeto, queria com certeza implementar muitas outras funcionalidades, porém consegui executar boa parte do que eu tinha em mente, somente dominando as tecnologias que já domino suficientemente, os ícones do projeto em sí, as fotos, boa parte deles eu melhorei o que consegui ou adaptei pra chegar num resultado que me agradasse mais, utilizando o figma, tentei utilizar boa parte das imagens em svg pra deixar o site mais leve, também me dediquei em trabalhar com uma semântica legal no html, tanto que nas pesquisas do google, quando se digita o meu nome, é a terceira opção que aparece, fica apenas atrás do linkedin e do github, ( não sei exatamente até onde isso é relevante, mas acredito que de certa forma ajude e muito a me localizar), tentei neste portifólio colocar o máximo de conhecimento adquirido, permanecerei avançando e melhorando a medida que meu conhecimento for evoluindo !!
 
 #
 
