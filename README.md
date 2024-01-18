@@ -10,7 +10,7 @@
 
 #
 
-### Pode acessar o meu portifólio pessoal [AQUI]()
+### Pode acessar o meu portifólio pessoal [AQUI](https://leandroduk.vercel.app/index.html);
 
 #
 
