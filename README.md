@@ -2,7 +2,7 @@
 
 ### Estou animado para compartilhar este projeto, que representa o início da minha jornada no desenvolvimento web. Planejo continuar aprimorando e implementando novas tecnologias à medida que avanço nos meus estudos.
 
-### **Tecnologias Utilizadas :**
+### ***Tecnologias Utilizadas :*** 
 
 #### Neste projeto, utilizei algumas bibliotecas interessantes para adicionar dinamismo ao site:
 
